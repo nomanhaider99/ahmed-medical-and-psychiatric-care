@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { PT_Sans } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/layouts/navbar";
+import Footer from "@/components/layouts/footer";
 
 const font = PT_Sans(
   {
@@ -23,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} w-full`}
+        className={`${font.className} w-full h-screen flex flex-col justify-between items-center`}
       >
         {children}
       </body>
