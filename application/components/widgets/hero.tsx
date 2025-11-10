@@ -3,7 +3,7 @@ import Chatbot from "../ui/chatbot"
 
 const Hero = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center py-5 md:px-10 px-4">
+    <div className="w-full flex flex-col items-center justify-center md:px-10 px-4">
         <video 
             className="rounded-lg md:block hidden"
             src="/assets/videos/hero.mp4"

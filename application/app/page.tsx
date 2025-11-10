@@ -4,6 +4,7 @@ import TopHeader from "@/components/layouts/top-header";
 import Description from "@/components/widgets/description";
 import FAQs from "@/components/widgets/faqs";
 import Hero from "@/components/widgets/hero";
+import Services from "@/components/widgets/services";
 import Team from "@/components/widgets/team";
 import Testimonials from "@/components/widgets/testimonials";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Description />
       <Team />
       <Testimonials />
+      <Services />
       <FAQs />
       <Footer />
     </main>

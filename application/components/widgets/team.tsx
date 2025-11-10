@@ -18,7 +18,7 @@ const Team = () => {
                     {/* Desktop Image: Set to overflow slightly, and use rounded corners */}
                     <Image
                         alt="Expert team member"
-                        src="/assets/images/team.jpg"
+                        src="/assets/images/team.jpeg"
                         width={500}
                         height={800}
                         // Position the image absolutely within its 40% column and round its corners
@@ -55,7 +55,7 @@ const Team = () => {
                         </p>
                     </div>
 
-                    <div className="md:w-[40%]">
+                    <div className="lg:w-[40%]">
                         <Button
                             text="Meet Our Licensed Specialists"
                             variant="primary"

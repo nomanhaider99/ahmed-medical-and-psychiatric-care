@@ -64,7 +64,7 @@ export default function Chatbot() {
       )}
 
       {isOpen && (
-        <div className="w-80 h-96 bg-white rounded-2xl shadow-xl flex flex-col overflow-hidden animate-fadeIn">
+        <div className="md:w-[400px] md:h-[600px] w-[300px] h-[450px] bg-white rounded-2xl shadow-xl flex flex-col overflow-hidden animate-fadeIn">
           {/* Header */}
           <div className="bg-vivid-azure text-white p-3 flex justify-between items-center">
             <span className="font-semibold">AI Assistant</span>
