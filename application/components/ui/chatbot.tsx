@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { Send, MessageCircle } from "lucide-react";
+import { BsThreeDots } from "react-icons/bs";
 
-// Define message type
 type Message = {
   sender: "user" | "bot";
   text: string;
@@ -13,31 +13,47 @@ export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const handleSend = async () => {
     if (!input.trim()) return;
 
     const userMsg: Message = { sender: "user", text: input };
     setMessages((prev) => [...prev, userMsg]);
-    setInput('');
+    setInput("");
 
-    const response = await fetch("/api/chat", { method: "POST", body: JSON.stringify({ prompt: input }) });
+    // Show bot loading message
+    setIsLoading(true);
+    setMessages((prev) => [...prev, { sender: "bot", text: "loading" }]);
+
+    const response = await fetch("/api/chat", {
+      method: "POST",
+      body: JSON.stringify({ prompt: input }),
+    });
+
     if (!response.ok) {
-        console.log(`Error: `, response.status)
+      console.log("Error:", response.status);
     }
-    const data = await response.json();
-    const botReply = data.output;
 
-      const botMsg: Message = {
-        sender: "bot",
-        text: botReply
-      };
-      setMessages((prev) => [...prev, botMsg]);
+    const data = await response.json();
+    const botReply = data.output ?? "Something Went Wrong! Sorry the problem occured!";
+    setIsLoading(false);
+
+    // Replace the loading message with the actual bot reply
+    setMessages((prev) => {
+      const updated = [...prev];
+      const lastIndex = updated.findLastIndex((msg) => msg.sender === "bot" && msg.text === "loading");
+      if (lastIndex !== -1) {
+        updated[lastIndex] = { sender: "bot", text: botReply };
+      } else {
+        updated.push({ sender: "bot", text: botReply });
+      }
+      return updated;
+    });
   };
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
-      {/* Floating Icon */}
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
@@ -47,11 +63,10 @@ export default function Chatbot() {
         </button>
       )}
 
-      {/* Chat Window */}
       {isOpen && (
         <div className="w-80 h-96 bg-white rounded-2xl shadow-xl flex flex-col overflow-hidden animate-fadeIn">
           {/* Header */}
-          <div className="bg-blue-600 text-white p-3 flex justify-between items-center">
+          <div className="bg-vivid-azure text-white p-3 flex justify-between items-center">
             <span className="font-semibold">AI Assistant</span>
             <button
               onClick={() => setIsOpen(false)}
@@ -77,7 +92,11 @@ export default function Chatbot() {
                       : "bg-gray-200 text-gray-800"
                   }`}
                 >
-                  {msg.text}
+                  {msg.sender === "bot" && msg.text === "loading" && isLoading ? (
+                    <BsThreeDots size={16} className="animate-pulse" />
+                  ) : (
+                    msg.text
+                  )}
                 </div>
               </div>
             ))}

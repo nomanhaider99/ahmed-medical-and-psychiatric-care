@@ -1,16 +1,22 @@
-import { FaPhoneAlt } from "react-icons/fa"
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const TopHeader = () => {
   return (
-    <div className="w-full py-2 flex items-center justify-between md:text-center text-left bg-brand-primary font-semibold tracking-tight text-white md:px-10 px-2">
-      <div className="md:flex hidden"></div>
-      <div className="text-sm md:text-md">Welcome to Ahmed Medical and Psychiatric Care</div>
-      <div className="w-1/2 md:w-auto flex items-center gap-2">
-        <div><FaPhoneAlt size={18}  /></div>
-        <div className="text-sm md:text-md">+1 123 456 789</div>
+    <div className="w-full bg-sky-600 text-white text-lg flex justify-between items-center px-4 sm:px-10 py-1.5">
+      <span>Welcome to Ahmed Medical and Psychiatric Care</span>
+      <div className="flex items-center gap-8">
+        <div className="flex items-center gap-2">
+        <FaPhoneAlt size={14} />
+        <span className="font-medium">+1 123 456 789</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <MdEmail size={14} />
+        <span className="font-medium">ahmedmedical@amps.com</span>
+      </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TopHeader
+export default TopHeader;
