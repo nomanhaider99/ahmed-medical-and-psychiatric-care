@@ -1,30 +1,69 @@
 import Image from "next/image"
+import Button from "../ui/button";
 
 const Team = () => {
+    // We will use an arbitrary value for the clip-path.
+    // This creates a diagonal line running from the top-left (10% down) to the bottom-left (0%) of the container.
+    const clipPathClasses = "md:[clip-path:polygon(0_0,100%_0,100%_100%,0_100%)] md:rounded-r-lg";
+    // NOTE: If you want a more noticeable diagonal slice, adjust the first coordinate: 
+    // e.g., md:[clip-path:polygon(10%_0,100%_0,100%_100%,0_100%)]
+
     return (
-        <div className="w-full flex justify-center py-10 md:px-20 px-4">
-            <div className="w-full flex md:flex-row flex-col justify-between items-center md:gap-0 gap-5 md:pr-4 px-4 md:px-0 pr-0 py-5 border-[1px]  border-brand-primary/50 md:h-[700px] rounded-lg">
-                <div className="md:w-[40%] w-full">
+        <div className="w-full flex justify-center py-16 px-4">
+            {/* Outer Container (Replaces the border) */}
+            <div className="w-full max-w-7xl flex md:flex-row flex-col justify-between md:gap-0 gap-8 bg-white shadow-xl md:shadow-2xl rounded-xl">
+
+                {/* 1. Left Column: Image Area (40% width) */}
+                <div className="md:w-[40%] w-full relative">
+                    {/* Desktop Image: Set to overflow slightly, and use rounded corners */}
                     <Image
-                        alt=""
+                        alt="Expert team member"
                         src="/assets/images/team.jpg"
                         width={500}
                         height={800}
-                        className="rounded-lg md:-translate-x-4 md:block hidden"
-                     />
+                        // Position the image absolutely within its 40% column and round its corners
+                        className="absolute inset-0 object-cover w-full h-full rounded-l-xl hidden md:block"
+                    />
+
+                    {/* Mobile Image: Full width, basic rounding */}
                     <Image
-                        alt=""
+                        alt="Expert team member"
                         src="/assets/images/team-mobile.jpg"
                         width={1100}
                         height={600}
-                        className="rounded-lg md:-translate-x-4 -translate-x-2 md:hidden block w-full"
-                     />
+                        className="rounded-t-xl md:hidden block w-full object-cover"
+                    />
                 </div>
-                <div className="md:w-[60%] w-full flex flex-col gap-3">
-                    <h1 className="text-[2.2rem] font-semibold">Real Experts, Real Care</h1>
-                    <p className="text-lg pr-4 md:px-0"><u>Our team</u> is composed of experienced psychiatrists and therapists dedicated to helping you achieve real, measurable improvements. At BlueSky, we treat anxiety, depression, and other mental health conditions with the utmost care. ​</p>
-                    <p className="text-lg pr-4 md:px-0">Many of our patients report a significant reduction in symptoms after starting treatment. Our clinical team is led by leaders in <u>psychiatry</u> and psychotherapy, embracing diverse specialties and backgrounds. We are committed to providing the highest standards of care and ensuring each individual feels supported throughout their mental health journey.</p>
+
+                {/* 2. Right Column: Text Content Area (60% width) */}
+                {/* Apply the diagonal clip-path to this div on medium screens and up */}
+                <div
+                    className={`md:w-[60%] w-full flex flex-col gap-6 md:py-16 py-8 md:px-16 px-6 
+                                ${clipPathClasses} bg-sky-50 rounded-b-xl md:rounded-l-none`}
+                >
+                    <h2 className="text-[2.5rem] md:text-5xl font-extrabold text-brand-primary leading-tight">
+                        <span className="text-gray-900">Real Experts,</span> Real Care
+                    </h2>
+
+                    {/* Content Section */}
+                    <div className="space-y-4 text-dark-gray">
+                        <p className="text-lg">
+                            <u>Our team</u> is composed of experienced <b>psychiatrists and therapists</b> dedicated to helping you achieve real, measurable improvements. At BlueSky, we treat anxiety, depression, and other mental health conditions with the utmost care.
+                        </p>
+                        <p className="text-lg">
+                            Many of our patients report a <b>significant reduction in symptoms</b> after starting treatment. Our clinical team is led by leaders in the field, embracing diverse specialties and backgrounds to provide the highest standards of care.
+                        </p>
+                    </div>
+
+                    <div className="md:w-[40%]">
+                        <Button
+                            text="Meet Our Licensed Specialists"
+                            variant="primary"
+                        />
+                    </div>
+
                 </div>
+
             </div>
         </div>
     )

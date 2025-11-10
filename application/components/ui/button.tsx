@@ -14,7 +14,7 @@ const Button = (
     var className: string = '';
     switch (variant) {
         case 'primary':
-            className = 'bg-brand-primary text-white font-medium px-4 py-2 rounded-lg cursor-pointer'
+            className = 'bg-vivid-azure shadow-vivid-azure shadow-2xs text-white font-medium px-4 py-2 rounded-lg cursor-pointer'
             break;
         case 'secondary':
             className = 'bg-white text-dark-gray font-medium px-4 py-2 rounded-lg border-[1px] border-dark-gray cursor-pointer'

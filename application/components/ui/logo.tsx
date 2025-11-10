@@ -7,8 +7,16 @@ const Logo = () => {
             <Image
                 alt=""
                 src="/assets/images/logo.png"
-                width={200}
-                height={200}
+                width={140}
+                height={140}
+                className='md:block hidden'
+             />
+             <Image
+                alt=""
+                src="/assets/images/logo.png"
+                width={100}
+                height={100}
+                className='md:hidden block'
              />
         </Link>
   )
