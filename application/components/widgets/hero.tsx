@@ -1,4 +1,5 @@
 import Button from "../ui/button"
+import Chatbot from "../ui/chatbot"
 
 const Hero = () => {
   return (
@@ -40,6 +41,9 @@ const Hero = () => {
                     variant="primary"
                  />
             </div>
+        </div>
+        <div className="absolute">
+            <Chatbot />
         </div>
     </div>
   )
