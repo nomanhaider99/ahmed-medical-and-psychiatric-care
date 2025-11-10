@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <footer className="w-full py-8 md:px-10 px-4 bg-blue-500 flex flex-col items-center gap-8">
+    <footer className="w-full py-8 md:px-10 px-4 bg-gradient-to-br from-vivid-azure to-blue-400 flex flex-col items-center gap-8">
       <div className="flex flex-col md:items-center items-start gap-3">
         <p className="uppercase text-white font-semibold">Your Path to Wellness Starts Here</p>
         <h2 className="text-[3rem] tracking-tight font-extrabold text-dark-gray leading-none">Request More Information</h2>

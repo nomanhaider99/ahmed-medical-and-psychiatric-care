@@ -36,13 +36,13 @@ const faqsData = [
 const FAQs = () => {
     return (
         <div className="w-full flex flex-col items-center gap-5 md:px-20 px-4 py-5">
-            <h1 className="text-[2.2rem] font-semibold">Frequently Asked Questions</h1>
+            <h1 className="lg:text-[3rem] text-[2rem] font-semibold leading-none">Frequently Asked Questions</h1>
             <div className="md:w-3/4 w-full">
                 <Accordion
                     type="single"
                     collapsible
                     className="w-full"
-                    defaultValue="item-1"
+                    defaultValue="1"
                 >
                     {
                         faqsData.map((item) => (
