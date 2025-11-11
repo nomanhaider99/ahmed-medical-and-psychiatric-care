@@ -10,13 +10,12 @@ const Footer = () => {
       <div className="flex flex-col md:items-center items-start gap-3">
         <p className="uppercase text-white font-semibold">Your Path to Wellness Starts Here</p>
         <h2 className="text-[3rem] tracking-tight font-extrabold text-dark-gray leading-none">Request More Information</h2>
-        <p className="md:text-center text-left text-zinc-200 w-full md:w-3/4">Ahmed Medical and Psychiatric Care is an integrated digital healthcare platform  that provides a secure, centralized hub for managing patient-provider interactions.</p>
+        <p className="md:text-center text-left text-zinc-200 w-full md:w-3/4">Ahmed Medical & Psychiatric Care is a hospital staffed by experienced psychiatrists and therapists dedicated to providing compassionate, evidence-based treatment for anxiety, depression, and other mental health conditions.</p>
         <Button
           text="Contact Us"
           variant="rounded-circular"
         />
-        <p className="text-zinc-200 md:text-center text-left">1431 Opus Pl, Suite 110
-          Downers Grove, IL 60515</p>
+        <p className="text-zinc-200 md:text-center text-left">8427 AUSTIN AVE, MORTON GROVE, IL 60053-3213</p>
       </div>
       <div className="w-3/4 bg-zinc-300/55 h-[1px]"></div>
       <div className="md:w-3/4 w-full flex md:flex-row flex-col justify-between md:items-center items-start md:gap-0 gap-5">

@@ -38,8 +38,10 @@ const MobileMenu = () => {
         {/* Nav Links */}
         <ul className="flex flex-col gap-5 mt-10 text-2xl font-semibold text-brand-dark">
           {[
+            { name: "Home", href: "/" },
             { name: "Services", href: "/services" },
             { name: "Location", href: "/location" },
+            { name: "FAQs", href: "/faqs" },
             { name: "Our Team", href: "/our-team" },
             { name: "Resources", href: "/resources" },
           ].map((link, i) => (
