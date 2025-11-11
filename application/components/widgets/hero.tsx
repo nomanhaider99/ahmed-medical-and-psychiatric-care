@@ -6,17 +6,17 @@ const Hero = () => {
     <div className="w-full flex flex-col items-center justify-center md:px-10 px-4">
         <video 
             className="rounded-lg md:block hidden"
-            src="https://res.cloudinary.com/dfd1buulq/video/upload/v1762875960/hero_tg0zkg.mp4"
+            src="https://res.cloudinary.com/dfd1buulq/video/upload/v1762891250/WhatsApp_Video_2025-11-12_at_12.58.38_AM_nmkekm.mp4"
             autoPlay
-            muted
+            muted   
             loop
             playsInline
-            width={1600}
-            height={600}
+            width={1400}
+            height={500}
         />
         <video 
             className="rounded-lg block md:hidden"
-            src="https://res.cloudinary.com/dfd1buulq/video/upload/v1762876685/mobile-hero_twbdya.mp4"
+            src="https://res.cloudinary.com/dfd1buulq/video/upload/v1762891250/WhatsApp_Video_2025-11-12_at_12.58.38_AM_nmkekm.mp4"
             autoPlay
             muted
             loop
@@ -24,7 +24,7 @@ const Hero = () => {
             width={1600}
             height={600}
         />
-        <div className="flex flex-col items-center gap-4 absolute">
+        {/* <div className="flex flex-col items-center gap-4 absolute">
             <h1 className="md:text-[4rem] text-[2.5rem] tracking-tight font-extrabold md:text-dark-gray text-white text-center w-3/4 md:leading-13 leading-none">Expert Virtual Mental Health Care Same-Day Appointments & Insurance Covered</h1>
             <p className="md:text-xl text-md text-center w-3/4 md:text-zinc-800 text-zinc-200">Connect with a licensed psychiatrist or therapist today</p>
             <Button
@@ -41,7 +41,7 @@ const Hero = () => {
                     variant="primary"
                  />
             </div>
-        </div>
+        </div> */}
         <div className="absolute">
             <Chatbot />
         </div>

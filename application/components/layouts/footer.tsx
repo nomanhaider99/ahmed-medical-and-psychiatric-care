@@ -21,7 +21,8 @@ const Footer = () => {
       <div className="md:w-3/4 w-full flex md:flex-row flex-col justify-between md:items-center items-start md:gap-0 gap-5">
         <Logo />
         <div className="flex md:flex-row flex-col items-center gap-4 text-zinc-50">
-          <Link href="/services">Services</Link>
+          <Link href="/">Home</Link>
+          <Link href="/faqs">FAQs</Link>
           <Link href="/location">Location</Link>
           <Link href="/our-team">Our Team</Link>
           <Link href="/resources">Resources</Link>
