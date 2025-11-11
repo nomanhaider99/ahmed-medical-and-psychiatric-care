@@ -23,7 +23,7 @@ const Description = () => {
 
           <p className="flex items-center gap-3 font-extrabold text-lg">
             <FaPhoneAlt size={16} />
-            +1 123 456 789
+            (442) 777-0876
           </p>
 
           <div className="w-full sm:w-1/2 md:w-2/3 lg:w-2/5">
