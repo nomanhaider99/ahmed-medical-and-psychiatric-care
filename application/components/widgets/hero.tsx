@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="w-full flex flex-col items-center justify-center md:px-10 px-4">
         <video 
             className="rounded-lg md:block hidden"
-            src="/assets/videos/hero.mp4"
+            src="https://res.cloudinary.com/dfd1buulq/video/upload/v1762875960/hero_tg0zkg.mp4"
             autoPlay
             muted
             loop
@@ -16,7 +16,7 @@ const Hero = () => {
         />
         <video 
             className="rounded-lg block md:hidden"
-            src="/assets/videos/mobile-hero.mp4"
+            src="https://res.cloudinary.com/dfd1buulq/video/upload/v1762876685/mobile-hero_twbdya.mp4"
             autoPlay
             muted
             loop
@@ -33,11 +33,11 @@ const Hero = () => {
              />
             <div className="w-1/2 flex justify-center items-center gap-10">
                 <Button
-                    text="Find a Psychiatrist"
+                    text="Explore Our Services"
                     variant="primary"
                  />
                 <Button
-                    text="Find a Therapist"
+                    text="Book an Appointment"
                     variant="primary"
                  />
             </div>

@@ -12,17 +12,13 @@ const Description = () => {
             SAME DAY <br /> APPOINTMENTS AVAILABLE
           </p>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-medium leading-tight">
-            Evidence-based therapy + psychiatric treatment from a team that cares
+            Evidence-Based Therapy and Psychiatric Care Delivered with Compassion
           </h2>
         </div>
 
         <div className="flex flex-col gap-5 text-dark-gray">
           <p className="text-base sm:text-lg leading-relaxed">
-            If you are looking for a <b>caring professional</b> to provide treatment in the comfort
-            of your home, BlueSky is here to help. BlueSky's experienced network of licensed,{" "}
-            <u>mental healthcare professionals</u> have a sincere commitment to patient-centered
-            care, structured around evidence-based solutions for positive outcomes. At BlueSky, we
-            approach every patient as an individual — with <b>empathy</b> and understanding.
+            At <u>Ahmed Medical & Psychiatric Care</u>, we provide professional, evidence-based mental health treatment in the comfort of your own home. Our team of licensed mental health professionals is dedicated to delivering patient-centered care, guided by proven, research-backed approaches to support meaningful and lasting outcomes. Every patient is treated as an individual, with empathy, understanding, and respect..
           </p>
 
           <p className="flex items-center gap-3 font-extrabold text-lg">
@@ -43,8 +39,7 @@ const Description = () => {
             alt="Doctor holding tablet"
             src="/assets/images/doctor-pad.jpg"
             fill
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 100vw"
             priority
           />
         </div>

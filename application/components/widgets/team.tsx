@@ -48,10 +48,10 @@ const Team = () => {
                     {/* Content Section */}
                     <div className="space-y-4 text-dark-gray">
                         <p className="text-lg">
-                            <u>Our team</u> is composed of experienced <b>psychiatrists and therapists</b> dedicated to helping you achieve real, measurable improvements. At BlueSky, we treat anxiety, depression, and other mental health conditions with the utmost care.
+                            Our team at <u>Ahmed Medical & Psychiatric Care</u> is composed of experienced psychiatrists and therapists dedicated to helping you achieve meaningful, measurable improvements in your mental health. We provide compassionate, evidence-based treatment for anxiety, depression, and other mental health conditions.
                         </p>
                         <p className="text-lg">
-                            Many of our patients report a <b>significant reduction in symptoms</b> after starting treatment. Our clinical team is led by leaders in the field, embracing diverse specialties and backgrounds to provide the highest standards of care.
+                            Many of our patients experience significant symptom reduction after beginning treatment. Our clinical team is led by recognized experts in psychiatry and psychotherapy, representing diverse specialties and backgrounds. We are committed to the highest standards of care, ensuring each individual feels supported and empowered throughout their mental health journey.
                         </p>
                     </div>
 
