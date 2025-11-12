@@ -11,6 +11,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { IoIosArrowDown } from 'react-icons/io';
+import Booking from "../ui/booking"
 
 const servicesData = [
   {
@@ -80,10 +81,10 @@ const Navbar = () => {
     <nav className="w-full flex items-center justify-between lg:px-10 sm:px-6 px-4 md:h-[120px] bg-white pt-1">
       <Logo />
       <ul className="sm:flex hidden items-center gap-6 text-xl text-dark-gray">
-        <Link className="hover:scale-105 transition-all hover:font-medium" href="/">Home</Link>
+        <Link className="hover:scale-105 transition-all hover:font-medium hover:text-vivid-green" href="/">Home</Link>
 
         <DropdownMenu>
-          <DropdownMenuTrigger className="hover:scale-105 transition-all hover:font-medium flex items-center gap-2 cursor-pointer">
+          <DropdownMenuTrigger className="hover:scale-105 transition-all hover:font-medium flex items-center gap-2 cursor-pointer hover:text-vivid-green">
             Services <IoIosArrowDown />
           </DropdownMenuTrigger>
           <DropdownMenuContent
@@ -103,13 +104,10 @@ const Navbar = () => {
 
         </DropdownMenu>
 
-        <Link className="hover:scale-105 transition-all hover:font-medium" href="/location">Location</Link>
-        <Link className="hover:scale-105 transition-all hover:font-medium" href="/faqs">FAQs</Link>
-        <Link className="hover:scale-105 transition-all hover:font-medium" href="/our-team">Our Team</Link>
-        <Link className="hover:scale-105 transition-all hover:font-medium" href="/resources">Resources</Link>
-        <Link href={`/appointment`}>
-          <Button text="Book Consultation" variant="primary" />
-        </Link>
+        <Link className="hover:scale-105 transition-all hover:font-medium hover:text-vivid-green" href="/location">Location</Link>
+        <Link className="hover:scale-105 transition-all hover:font-medium hover:text-vivid-green" href="/faqs">FAQs</Link>
+        <Link className="hover:scale-105 transition-all hover:font-medium hover:text-vivid-green" href="/our-team">Our Team</Link>
+        <Booking />
       </ul>
       <div className="sm:hidden block">
         <MobileMenu />

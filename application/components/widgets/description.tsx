@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Button from "../ui/button"
 import { FaPhoneAlt } from "react-icons/fa"
+import Booking from "../ui/booking"
 
 const Description = () => {
   return (
@@ -27,7 +28,7 @@ const Description = () => {
           </p>
 
           <div className="w-full sm:w-1/2 md:w-2/3 lg:w-2/5">
-            <Button text="Book An Appointment" variant="primary" />
+            <Booking />
           </div>
         </div>
       </div>

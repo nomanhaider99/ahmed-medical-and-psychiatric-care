@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 
 const TopHeader = () => {
   return (
-    <div className="w-full bg-sky-600 text-white md:text-lg text-sm flex justify-between items-center px-4 sm:px-10 py-1.5">
+    <div className="w-full bg-vivid-azure text-white md:text-lg text-xs flex justify-between items-center px-4 sm:px-10 py-1.5">
       <span className="lg:block hidden">Welcome to Ahmed Medical and Psychiatric Care</span>
       <div className="md:w-auto w-full flex items-center justify-between md:gap-8 gap-0">
         <div className="flex items-center gap-2">
