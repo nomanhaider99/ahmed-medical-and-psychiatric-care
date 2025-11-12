@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="w-full flex flex-col items-center justify-center md:px-10 px-4">
         <video 
             className="rounded-lg md:block hidden"
-            src="https://res.cloudinary.com/dfd1buulq/video/upload/v1762891250/WhatsApp_Video_2025-11-12_at_12.58.38_AM_nmkekm.mp4"
+            src="https://res.cloudinary.com/dfd1buulq/video/upload/v1762928245/hero_txymkk.mp4"
             autoPlay
             muted   
             loop
@@ -16,7 +16,7 @@ const Hero = () => {
         />
         <video 
             className="rounded-lg block md:hidden"
-            src="https://res.cloudinary.com/dfd1buulq/video/upload/v1762891250/WhatsApp_Video_2025-11-12_at_12.58.38_AM_nmkekm.mp4"
+            src="https://res.cloudinary.com/dfd1buulq/video/upload/v1762928245/hero_txymkk.mp4"
             autoPlay
             muted
             loop
