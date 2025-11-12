@@ -97,7 +97,7 @@ const FAQs = () => {
                             <AccordionItem 
                                 value={String(item.id)} 
                                 key={item.id}
-                                className="cursor-pointer"
+                                className="cursor-pointer border-b-[1px] border-vivid-azure/15"
                             >
                                 <AccordionTrigger className="text-vivid-azure text-lg">{item.question}</AccordionTrigger>
                                 <AccordionContent className="text-dark-gray text-lg">{item.answer}</AccordionContent>

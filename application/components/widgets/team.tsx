@@ -18,11 +18,11 @@ const Team = () => {
                     {/* Desktop Image: Set to overflow slightly, and use rounded corners */}
                     <Image
                         alt="Expert team member"
-                        src="/assets/images/team.jpeg"
+                        src="/assets/images/team.jpg"
                         width={500}
                         height={800}
                         // Position the image absolutely within its 40% column and round its corners
-                        className="absolute inset-0 object-cover w-full h-full rounded-l-xl hidden md:block"
+                        className="rounded-l-xl hidden md:block"
                     />
 
                     {/* Mobile Image: Full width, basic rounding */}

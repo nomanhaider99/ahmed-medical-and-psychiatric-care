@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Send, MessageCircle } from "lucide-react";
-import { BsThreeDots } from "react-icons/bs";
+import { BsChatRightDots, BsFillChatLeftFill, BsThreeDots } from "react-icons/bs";
+import { IoIosArrowDown, IoMdSend } from "react-icons/io";
 
 type Message = {
   sender: "user" | "bot";
@@ -57,70 +57,81 @@ export default function Chatbot() {
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition cursor-pointer"
+          className="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition cursor-pointer flex justify-center items-center"
         >
-          <MessageCircle size={28} />
+          <div className="w-full flex translate-x-1">
+            <BsFillChatLeftFill size={24} className="-z-10" />
+          <BsChatRightDots size={24} className="translate-y-2 -translate-x-3 z-20"  />
+          </div>
         </button>
       )}
 
       {isOpen && (
-        <div className="md:w-[400px] md:h-[600px] w-[300px] h-[450px] bg-white rounded-2xl shadow-xl flex flex-col overflow-hidden animate-fadeIn">
-          {/* Header */}
-          <div className="bg-vivid-azure text-white p-3 flex justify-between items-center">
-            <span className="font-semibold">AI Assistant</span>
-            <button
-              onClick={() => setIsOpen(false)}
-              className="text-white hover:text-gray-200 text-lg font-bold"
-            >
-              ✕
-            </button>
-          </div>
+  <div className="relative">
+    {/* Arrow Button Outside */}
+    <button
+      onClick={() => setIsOpen(false)}
+      className="absolute -top-10 right-4 bg-blue-600 text-white p-2 rounded-full shadow-lg hover:bg-blue-700 transition cursor-pointer flex justify-center items-center z-50"
+    >
+      <IoIosArrowDown size={22} />
+    </button>
 
-          {/* Messages */}
-          <div className="flex-1 overflow-y-auto p-3 space-y-2 bg-gray-50">
-            {messages.map((msg, index) => (
-              <div
-                key={index}
-                className={`flex ${
-                  msg.sender === "user" ? "justify-end" : "justify-start"
-                }`}
-              >
-                <div
-                  className={`px-3 py-2 rounded-xl text-sm max-w-[75%] ${
-                    msg.sender === "user"
-                      ? "bg-blue-600 text-white"
-                      : "bg-gray-200 text-gray-800"
-                  }`}
-                >
-                  {msg.sender === "bot" && msg.text === "loading" && isLoading ? (
-                    <BsThreeDots size={16} className="animate-pulse" />
-                  ) : (
-                    msg.text
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
+    {/* Chat Box */}
+    <div className="md:w-[300px] md:h-[400px] w-[300px] h-[450px] bg-white rounded-t-xl rounded-b-3xl shadow-xl flex flex-col overflow-hidden animate-fadeIn">
+      {/* Header */}
+      <div className="bg-blue-500 text-white p-3 h-[75px] flex justify-center items-center rounded-b-full">
+        <span className="font-medium text-lg text-center">
+          Ahmed Medical AI Assistant
+        </span>
+      </div>
 
-          {/* Input */}
-          <div className="p-3 border-t flex items-center bg-white">
-            <input
-              type="text"
-              placeholder="Type a message..."
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && handleSend()}
-              className="flex-1 border rounded-full px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
-            />
-            <button
-              onClick={handleSend}
-              className="ml-2 bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition"
+      {/* Messages */}
+      <div className="flex-1 overflow-y-auto p-3 space-y-2 bg-white">
+        {messages.map((msg, index) => (
+          <div
+            key={index}
+            className={`flex ${
+              msg.sender === "user" ? "justify-end" : "justify-start"
+            }`}
+          >
+            <div
+              className={`px-3 py-2 rounded-xl text-sm max-w-[75%] ${
+                msg.sender === "user"
+                  ? "bg-blue-600 text-white"
+                  : "bg-gray-200 text-gray-800"
+              }`}
             >
-              <Send size={18} />
-            </button>
+              {msg.sender === "bot" && msg.text === "loading" && isLoading ? (
+                <BsThreeDots size={16} className="animate-pulse" />
+              ) : (
+                msg.text
+              )}
+            </div>
           </div>
-        </div>
-      )}
+        ))}
+      </div>
+
+      {/* Input */}
+      <div className="p-3 border-t flex items-center bg-white">
+        <input
+          type="text"
+          placeholder="Type a message..."
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && handleSend()}
+          className="flex-1 border rounded-full px-3 py-2 text-sm focus:outline-none focus:ring-2 border-[1px] border-blue-300 focus:ring-blue-400"
+        />
+        <button
+          onClick={handleSend}
+          className="ml-2 bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition flex justify-center"
+        >
+          <IoMdSend size={18} className="translate-x-[1px]" />
+        </button>
+      </div>
+    </div>
+  </div>
+)}
+
     </div>
   );
 }
