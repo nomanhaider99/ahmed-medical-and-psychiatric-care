@@ -23,16 +23,10 @@ const Description = () => {
             At <u>Ahmed Medical & Psychiatric Care</u>, we provide professional, evidence-based mental health treatment in the comfort of your own home. Our team of licensed mental health professionals is dedicated to delivering patient-centered care, guided by proven, research-backed approaches to support meaningful and lasting outcomes. Every patient is treated as an individual, with empathy, understanding, and respect..
           </p>
 
-          <div className="flex items-center gap-8">
-            <p className="flex items-center gap-3 font-extrabold text-lg">
-              <FaPhoneAlt size={16} />
-              (442) 777-0876
-            </p>
-            <p className="flex items-center gap-3 font-extrabold text-lg">
-              <FaFax size={16} />
-              (224) 252-3667
-            </p>
-          </div>
+          <p className="flex items-center gap-3 font-extrabold text-lg">
+            <FaPhoneAlt size={16} />
+            (442) 777-0876
+          </p>
 
           <div className="w-full sm:w-1/2 md:w-2/3 lg:w-2/5">
             <BookingButton btnVariant="primary" />
