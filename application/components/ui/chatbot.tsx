@@ -77,9 +77,9 @@ export default function Chatbot() {
     </button>
 
     {/* Chat Box */}
-    <div className="md:w-[300px] md:h-[400px] w-[300px] h-[450px] bg-white rounded-t-xl rounded-b-3xl shadow-xl flex flex-col overflow-hidden animate-fadeIn">
+    <div className="md:w-[350px] md:h-[450px] w-[300px] h-[450px] bg-white rounded-t-xl rounded-b-3xl shadow-xl flex flex-col overflow-hidden animate-fadeIn">
       {/* Header */}
-      <div className="bg-blue-500 text-white p-3 h-[75px] flex justify-center items-center rounded-b-full">
+      <div className="bg-vivid-azure text-white p-3 h-[75px] flex justify-center items-center rounded-b-full">
         <span className="font-medium text-lg text-center">
           Ahmed Medical AI Assistant
         </span>

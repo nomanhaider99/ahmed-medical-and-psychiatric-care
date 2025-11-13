@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-2">
               <MdEmail size={14} />
-              <span className="font-medium">ahmedmedandpsych@gmail.com</span>
+              <span className="font-medium">info@ahmedmedicalpsychiatriccare.com</span>
             </div>
             <div className="flex items-center gap-2">
               <MdFax />
@@ -34,28 +34,22 @@ const Footer = () => {
         <div className="flex md:flex-row flex-col lg:items-center items-start gap-4 text-zinc-50">
           <Link href="/">Home</Link>
           <Link href="/faqs">FAQs</Link>
-          <Link href="/location">Location</Link>
           <Link href="/our-team">Our Team</Link>
         </div>
         <div className="flex items-center gap-4">
-          <Link href={'https://facebook.com'}>
+          <Link target="_blank" href={'https://facebook.com/ahmed-medical-psychiatric-care'}>
             <SocialIcon
               icon={<FaFacebook size={20} color="#fff" />}
             />
           </Link>
-          <Link href={'https://instagram.com'}>
+          <Link target="_blank" href={'https://instagram.com/ahmed-medical-psychiatric-care'}>
             <SocialIcon
               icon={<FaInstagram size={20} color="#fff" />}
             />
           </Link>
-          <Link href={'https://linkedin.com'}>
+          <Link target="_blank" href={'https://linkedin.com/in/ahmed-medical-psychiatric-care'}>
             <SocialIcon
               icon={<FaLinkedin size={20} color="#fff" />}
-            />
-          </Link>
-          <Link href={'https://x.com'}>
-            <SocialIcon
-              icon={<FaXTwitter size={20} color="#fff" />}
             />
           </Link>
         </div>

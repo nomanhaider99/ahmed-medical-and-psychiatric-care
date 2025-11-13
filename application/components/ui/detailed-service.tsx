@@ -43,7 +43,7 @@ const DetailedService = (
         <h2 className="text-2xl font-semibold mb-4">{data?.treatmentProcess?.heading}</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {data?.treatmentProcess?.steps.map((step, i) => (
-            <div key={i} className="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+            <div key={i} className="p-4 border border-vivid-azure/50 rounded-lg shadow-sm hover:shadow-md transition">
               <h3 className="font-semibold text-lg mb-2">{step.title}</h3>
               <p>{step.desc}</p>
             </div>
@@ -66,7 +66,7 @@ const DetailedService = (
         <h2 className="text-2xl font-semibold mb-4">{data?.benefits?.heading}</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {data?.benefits?.list.map((benefit, i) => (
-            <div key={i} className="p-4 border rounded-lg">
+            <div key={i} className="p-4 border border-vivid-azure/50 rounded-lg">
               <h3 className="font-semibold text-lg">{benefit.title}</h3>
               <p>{benefit.desc}</p>
             </div>
