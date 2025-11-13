@@ -45,7 +45,7 @@ const MobileMenu = () => {
 
       <SheetContent
         side="left"
-        className="w-full sm:max-w-sm bg-gradient-to-b from-white to-blue-50 border-r border-blue-100 px-6 py-4 shadow-2xl"
+        className="w-full sm:max-w-sm bg-gradient-to-b from-white to-blue-50 border-r border-blue-100 px-6 py-2 shadow-2xl"
       >
         <SheetHeader className="">
           <SheetTitle className="flex items-center gap-1">
@@ -73,7 +73,7 @@ const MobileMenu = () => {
               Services {servicesOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
             </button>
             {servicesOpen && (
-              <ul className="mt-2 ml-4 flex flex-col gap-3 text-sm font-medium text-brand-dark overflow-y-scroll invisible-scroller">
+              <ul className="mt-2 ml-4 flex flex-col gap-3 text-sm font-medium text-brand-dark invisible-scroller">
                 {servicesData.map((service) => (
                   <li key={service.id}>
                     <Link
@@ -86,12 +86,6 @@ const MobileMenu = () => {
                 ))}
               </ul>
             )}
-          </li>
-
-          <li>
-            <Link href="/location" className="block hover:text-brand-primary transition-colors duration-300">
-              Location
-            </Link>
           </li>
           <li>
             <Link href="/faqs" className="block hover:text-brand-primary transition-colors duration-300">

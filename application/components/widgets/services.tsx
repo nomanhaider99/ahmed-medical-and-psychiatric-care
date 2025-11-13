@@ -13,6 +13,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Button from "../ui/button";
 import Link from "next/link";
+import BookingButton from "../ui/booking-button";
 
 const Skiper48 = ({ onSlideChange }: { onSlideChange: (index: number) => void }) => {
   const images = [
@@ -194,7 +195,7 @@ const Services = () => {
   return (
     <section className="w-full flex flex-col items-center gap-10 px-8 md:px-10 lg:px-20">
       <h1 className="lg:text-[3rem] text-[2rem] sm:text-4xl md:text-[3rem] font-semibold text-center leading-none">
-        Our Comprehensive Mental Health Services
+        Best Psychiatric & Mental Health Services
       </h1>
 
       <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10">
@@ -232,12 +233,7 @@ const Services = () => {
               </Link>
             </div>
             <div className="">
-              <Link href={`/appointment`}>
-                <Button
-                  text="Book an Appointment"
-                  variant="secondary"
-                />
-              </Link>
+              <BookingButton btnVariant="secondary" />
             </div>
           </div>
         </div>

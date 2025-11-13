@@ -41,9 +41,9 @@ const Team = () => {
                     className={`md:w-[60%] w-full flex flex-col gap-6 md:py-16 py-8 md:px-16 px-6 
                                 ${clipPathClasses} bg-sky-50 rounded-b-xl md:rounded-l-none`}
                 >
-                    <h2 className="text-[2.5rem] md:text-5xl font-extrabold text-brand-primary leading-tight">
+                    <h1 className="text-[2.5rem] md:text-5xl font-extrabold text-brand-primary leading-tight">
                         <span className="text-gray-900">Real Experts,</span> Real Care
-                    </h2>
+                    </h1>
 
                     {/* Content Section */}
                     <div className="space-y-4 text-dark-gray">
@@ -53,13 +53,6 @@ const Team = () => {
                         <p className="text-lg">
                             Many of our patients experience significant symptom reduction after beginning treatment. Our clinical team is led by recognized experts in psychiatry and psychotherapy, representing diverse specialties and backgrounds. We are committed to the highest standards of care, ensuring each individual feels supported and empowered throughout their mental health journey.
                         </p>
-                    </div>
-
-                    <div className="lg:w-[40%]">
-                        <Button
-                            text="Meet Our Licensed Specialists"
-                            variant="primary"
-                        />
                     </div>
 
                 </div>
