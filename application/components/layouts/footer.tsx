@@ -38,12 +38,12 @@ const Footer = () => {
           <Link href="/our-team">Our Team</Link>
         </div>
         <div className="flex items-center gap-4">
-          <Link target="_blank" href={'https://facebook.com/ahmed-medical-psychiatric-care'}>
+          <Link target="_blank" href={'https://www.facebook.com/profile.php?id=61583141767923'}>
             <SocialIcon
               icon={<FaFacebook size={20} color="#fff" />}
             />
           </Link>
-          <Link target="_blank" href={'https://instagram.com/ahmed-medical-psychiatric-care'}>
+          <Link target="_blank" href={'https://www.instagram.com/ahmed_medical_psychiatric_care/'}>
             <SocialIcon
               icon={<FaInstagram size={20} color="#fff" />}
             />
