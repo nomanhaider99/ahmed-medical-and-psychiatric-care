@@ -1,5 +1,6 @@
 export interface ServiceDetail {
     id: number;
+    image: string;
     route: string;
     title: string;
     subtitle?: string;
@@ -57,6 +58,7 @@ export interface ServiceDetail {
 export const detailedServicesData: ServiceDetail[] = [
     {
         id: 1,
+        image: '/assets/images/services/medication-management.jpeg',
         route: "/services/medication-management",
         title: "Online Medication Management",
         subtitle: "Online Medication Management",
@@ -160,6 +162,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 2,
+        image: '/assets/images/services/mental-health.jpeg',
         route: "/services/mental-health",
         title: "Online Mental Health Consultation",
         subtitle: "Professional Mental Health Support Anytime, Anywhere",
@@ -281,6 +284,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 3,
+        image: '/assets/images/services/stress-management.jpeg',
         route: "/services/stress-management",
         title: "Online Stress Management Therapy",
         subtitle: "Online Stress Management Therapy",
@@ -401,6 +405,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 4,
+        image: '/assets/images/services/seasonal-disorder.jpg',
         route: "/services/seasonal-disorder",
         title: "Online Seasonal Affective Disorder (SAD) Treatment",
         subtitle: "Online Seasonal Affective Disorder (SAD) Treatment",
@@ -522,6 +527,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 5,
+        image: '/assets/images/services/depression.jpg',
         route: "/services/depression",
         title: "Online Depression Treatment",
         subtitle: "Online Depression Treatment",
@@ -622,6 +628,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 6,
+        image: '/assets/images/services/anxiety.jpg',
         route: "/services/anxiety",
         title: "Online Anxiety Management Therapy",
         subtitle: "Online Anxiety Management Therapy",
@@ -743,6 +750,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 7,
+        image: '/assets/images/services/insomnia.jpg',
         route: "/services/insomnia",
         title: "Online Insomnia Treatment",
         subtitle: "Online Insomnia Treatment",
@@ -829,6 +837,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 8,
+        image: '/assets/images/services/ptsd.jpeg',
         route: '/services/post-traumatic-stress-disorder',
         title: "Post-Traumatic Stress Disorder (PTSD)",
         subtitle: "Online PTSD Treatment",
@@ -931,6 +940,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 9,
+        image: '/assets/images/services/self-harm.jpg',
         route: "/services/self-harm",
         title: "Self-Harm Treatment",
         subtitle: "Self-Harm Treatment",
@@ -1024,6 +1034,7 @@ export const detailedServicesData: ServiceDetail[] = [
     {
         id: 10,
         route: "/services/low-self-esteem",
+        image: '/assets/images/services/low-self-stream.jpeg',
         title: "Online Therapy for Low Self-Esteem",
         subtitle: "Online Therapy for Low Self-Esteem",
         desc:
@@ -1136,6 +1147,7 @@ export const detailedServicesData: ServiceDetail[] = [
     {
         id: 11,
         route: "/services/suicidal-thoughts",
+        image: '/assets/images/services/suicidal-thoughts.jpeg',
         title: "Online Support for Managing Suicidal Thoughts",
         subtitle: "Compassionate Support and Therapy with Ahmed Medical & Psychiatric Care",
         desc:
@@ -1247,6 +1259,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 12,
+        image: '/assets/images/services/ocd.jpeg',
         route: '/services/obsessive-compulsive-disorder',
         title: "Obsessive-Compulsive Disorder (OCD)",
         subtitle: "Online OCD Treatment",

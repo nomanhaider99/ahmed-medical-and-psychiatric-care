@@ -1,4 +1,5 @@
 import { ServiceDetail } from "@/data/services"
+import Image from "next/image"
 
 const DetailedService = (
   { data }: {
@@ -11,6 +12,16 @@ const DetailedService = (
       <section className="w-full bg-blue-50 py-16 px-6 text-center">
         <h1 className="text-3xl md:text-5xl font-bold text-blue-800">{data.subtitle}</h1>
         <p className="mt-4 text-lg max-w-3xl mx-auto">{data?.whatIs?.description}</p>
+      </section>
+
+      <section className="w-full flex justify-center py-5 md:px-10 px-4">
+        <Image
+          alt=""
+          src={data.image}
+          width={1000}
+          height={600}
+          className="rounded-lg"
+         />
       </section>
 
       {/* Symptoms */}
