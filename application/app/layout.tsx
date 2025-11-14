@@ -8,10 +8,10 @@ const font = PT_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ahmedmedicalpsychiatriccare.com"),
+  metadataBase: new URL("https://www.ahmedmedicalpsychiatriccare.com/"),
   title: {
-    default: "Ahmed Medical & Psychiatric Care",
-    template: "%s | Ahmed Medical & Psychiatric Care",
+    default: "Ahmed Medical Psychiatric Care",
+    template: "%s | Ahmed Medical Psychiatric Care",
   },
   description:
     "Ahmed Medical & Psychiatric Care provides professional psychiatric and mental health services with compassion and evidence-based treatment.",
@@ -21,10 +21,15 @@ export const metadata: Metadata = {
     "therapy",
     "psychiatric care",
     "Ahmed Medical and Psychiatric Care",
+    "best psychiatric services",
+    "best mental health services"
   ],
+  icons: {
+    icon: '/favicon.ico'
+  },
   openGraph: {
     type: "website",
-    url: "https://ahmedmedicalpsychiatriccare.com",
+    url: "https://www.ahmedmedicalpsychiatriccare.com/",
     title: "Ahmed Medical & Psychiatric Care",
     description:
       "Trusted mental health and psychiatric services — expert care for your wellbeing.",
@@ -39,7 +44,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://ahmedmedicalpsychiatriccare.com",
+    canonical: "https://www.ahmedmedicalpsychiatriccare.com/",
   },
 };
 
