@@ -194,7 +194,7 @@ const Services = () => {
 
   return (
     <section className="w-full flex flex-col items-center gap-10 px-8 md:px-10 lg:px-20">
-      <h1 className="lg:text-[3rem] text-[2rem] sm:text-4xl md:text-[3rem] font-semibold text-center leading-none">
+      <h1 className="lg:text-[3rem] text-[2rem] sm:text-4xl md:text-[3rem] font-semibold text-center leading-none text-vivid-azure">
         Best Psychiatric & Mental Health Services
       </h1>
 

@@ -104,8 +104,8 @@ const Testimonials = () => {
   return (
     <div className="w-full flex flex-col gap-5 md:px-20 px-4 md:py-10 py-5">
       <div className="text-center">
-        <h1 className="md:text-[3rem] text-[2rem] tracking-tight font-semibold leading-none">Patients Feedback</h1>
-        <p className="md:text-lg">Our patients consistently share positive experiences and are genuinely happy with the care they receive.</p>
+        <h1 className="md:text-[3rem] text-[2rem] tracking-tight font-semibold leading-none text-vivid-azure">Patients Feedback</h1>
+        <p className="md:text-lg text-vivid-green">Our patients consistently share positive experiences and are genuinely happy with the care they receive.</p>
       </div>
       <div><MarqueeReviews /></div>
     </div>
