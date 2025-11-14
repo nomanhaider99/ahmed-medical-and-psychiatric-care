@@ -33,6 +33,7 @@ const Footer = () => {
         <Logo />
         <div className="flex md:flex-row flex-col lg:items-center items-start gap-4 text-zinc-50">
           <Link href="/">Home</Link>
+          <Link href="/services">Services</Link>
           <Link href="/faqs">FAQs</Link>
           <Link href="/our-team">Our Team</Link>
         </div>
