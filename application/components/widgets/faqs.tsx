@@ -83,8 +83,8 @@ const faqsData = [
 
 const FAQs = () => {
     return (
-        <div className="w-full flex flex-col items-center gap-5 md:px-20 px-4 py-5">
-            <h1 className="lg:text-[3rem] text-[2rem] font-semibold leading-none">Frequently Asked Questions</h1>
+        <div className="w-full flex flex-col items-center gap-5 md:px-20 px-4 md:py-10 py-5">
+            <h1 className="lg:text-[3rem] text-[2rem] font-semibold leading-none text-vivid-azure">Frequently Asked Questions</h1>
             <div className="md:w-3/4 w-full">
                 <Accordion
                     type="single"
@@ -99,8 +99,8 @@ const FAQs = () => {
                                 key={item.id}
                                 className="cursor-pointer border-b-[1px] border-vivid-azure/15"
                             >
-                                <AccordionTrigger className="text-vivid-azure text-lg">{item.question}</AccordionTrigger>
-                                <AccordionContent className="text-dark-gray text-lg">{item.answer}</AccordionContent>
+                                <AccordionTrigger className="text-dark-gray text-lg font-semibold">{item.question}</AccordionTrigger>
+                                <AccordionContent className="text-zinc-700 text-lg">{item.answer}</AccordionContent>
                             </AccordionItem>
                         ))
                     }
