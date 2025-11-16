@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { PT_Sans } from "next/font/google";
 import "./globals.css";
+import { OrganizationSchema } from "./structured-data";
 
 const font = PT_Sans({
   subsets: ["latin"],
@@ -55,6 +56,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <OrganizationSchema />
+      </head>
       <body
         className={`${font.className} w-full flex flex-col justify-between items-center`}
       >
