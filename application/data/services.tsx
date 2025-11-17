@@ -58,7 +58,7 @@ export interface ServiceDetail {
 export const detailedServicesData: ServiceDetail[] = [
     {
         id: 1,
-        image: '/assets/images/services/medication-management.jpeg',
+        image: '/assets/images/services/medication-management.jpg',
         route: "/services/medication-management",
         title: "Online Medication Management",
         subtitle: "Online Medication Management",
@@ -1259,7 +1259,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 12,
-        image: '/assets/images/services/ocd.jpeg',
+        image: '/assets/images/services/ocd.jpg',
         route: '/services/obsessive-compulsive-disorder',
         title: "Obsessive-Compulsive Disorder (OCD)",
         subtitle: "Online OCD Treatment",

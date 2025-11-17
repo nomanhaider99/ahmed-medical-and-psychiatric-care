@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Button from "../ui/button";
 
 const Team = () => {
     const clipPathClasses = "md:[clip-path:polygon(0_0,100%_0,100%_100%,0_100%)] md:rounded-r-lg";
@@ -12,15 +11,7 @@ const Team = () => {
                         src="/assets/images/team.jpg"
                         width={500}
                         height={800}
-                        className="rounded-l-xl hidden md:block"
-                    />
-
-                    <Image
-                        alt="Expert team member"
-                        src="/assets/images/team-mobile.jpg"
-                        width={1100}
-                        height={600}
-                        className="rounded-t-xl md:hidden block w-full object-cover"
+                        className="rounded-l-xl"
                     />
                 </div>
 
