@@ -95,7 +95,7 @@ export default function Chatbot() {
             }`}
           >
             <div
-              className={`px-3 py-2 rounded-xl text-sm max-w-[75%] ${
+              className={`px-3 py-2 rounded-xl text-sm max-w-[90%] break-words overflow-hidden whitespace-pre-wrap ${
                 msg.sender === "user"
                   ? "bg-blue-600 text-white"
                   : "bg-gray-200 text-gray-800"
