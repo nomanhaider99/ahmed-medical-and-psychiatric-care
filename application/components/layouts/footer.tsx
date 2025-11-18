@@ -35,7 +35,7 @@ const Footer = () => {
           <Link href="/">Home</Link>
           <Link href="/services">Services</Link>
           <Link href="/faqs">FAQs</Link>
-          <Link href="/our-team">Our Team</Link>
+          <Link href="/team">Our Team</Link>
         </div>
         <div className="flex items-center gap-4">
           <Link target="_blank" href={'https://www.facebook.com/profile.php?id=61583141767923'}>

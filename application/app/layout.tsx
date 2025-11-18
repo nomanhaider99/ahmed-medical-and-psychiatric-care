@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "best mental health services"
   ],
   icons: {
-    icon: '/favicon.ico'
+    icon: '/assets/images/logo.png',
   },
   openGraph: {
     type: "website",
