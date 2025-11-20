@@ -100,7 +100,7 @@ const MobileMenu = () => {
         </ul>
 
         {/* Footer */}
-        <SheetFooter className="mt-10 border-t border-blue-100 pt-6">
+        <SheetFooter className="w-full flex flex-col items-center mt-10 border-t border-blue-100 pt-6">
           <BookingButton btnVariant="primary" />
           <p className="text-center text-sm text-gray-500 mt-3">
             Compassionate care. Modern treatment. Better health.
