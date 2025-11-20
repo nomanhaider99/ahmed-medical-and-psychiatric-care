@@ -29,6 +29,10 @@ const servicesData = [
   { id: 10, name: "Low Self Esteem", route: "/services/low-self-esteem" },
   { id: 11, name: "Suicidal Thoughts", route: "/services/suicidal-thoughts" },
   { id: 12, name: "Obsessive-Compulsive Disorder (OCD)", route: "/services/obsessive-compulsive-disorder" },
+  { id: 13, name: "Attention-Deficit/Hyperactivity Disorder (ADHD)", route: "/services/adhd-treatment" },
+  { id: 14, name: "Anger Management", route: "/services/anger-management" },
+  { id: 15, name: "Alcohol Abuse", route: "/services/alcohol-abuse" },
+  { id: 16, name: "Smoking Prevention", route: "/services/smoking-prevention" },
 ];
 
 const MobileMenu = () => {
@@ -73,7 +77,7 @@ const MobileMenu = () => {
               Services {servicesOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
             </button>
             {servicesOpen && (
-              <ul className="mt-2 ml-4 flex flex-col gap-3 text-sm font-medium text-brand-dark invisible-scroller">
+              <ul className="mt-2 overflow-y-auto max-h-60 ml-4 flex flex-col gap-3 text-sm font-medium text-brand-dark invisible-scroller">
                 {servicesData.map((service) => (
                   <li key={service.id}>
                     <Link
