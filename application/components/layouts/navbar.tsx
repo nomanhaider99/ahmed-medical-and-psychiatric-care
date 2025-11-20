@@ -1,6 +1,4 @@
-import Image from "next/image"
 import Link from "next/link"
-import Button from "../ui/button"
 import Logo from "../ui/logo"
 import MobileMenu from "../ui/mobile-menu"
 import {
@@ -25,6 +23,10 @@ const servicesData = [
   { id: 10, name: "Low Self Esteem", route: "/services/low-self-esteem" },
   { id: 11, name: "Suicidal Thoughts", route: "/services/suicidal-thoughts" },
   { id: 12, name: "Obsessive-Compulsive Disorder (OCD)", route: "/services/obsessive-compulsive-disorder" },
+  { id: 13, name: "Attention-Deficit/Hyperactivity Disorder (ADHD)", route: "/services/adhd-treatment" },
+  { id: 14, name: "Anger Management", route: "/services/anger-management" },
+  { id: 15, name: "Alcohol Abuse", route: "/services/alcohol-abuse" },
+  { id: 16, name: "Smoking Prevention", route: "/services/smoking-prevention" },
 ];
 
 const Navbar = () => {
@@ -32,7 +34,7 @@ const Navbar = () => {
     <nav className="w-full flex items-center justify-between lg:px-10 sm:px-6 px-4 md:h-[120px] bg-white pt-1">
       <Logo />
       <ul className="sm:flex hidden items-center gap-6 text-xl text-dark-gray">
-        
+
         {/* Home */}
         <Link
           href="/"

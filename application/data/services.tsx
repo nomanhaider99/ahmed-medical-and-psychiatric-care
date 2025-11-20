@@ -1375,4 +1375,481 @@ export const detailedServicesData: ServiceDetail[] = [
             ],
         },
     },
+    {
+        id: 13,
+        image: "/assets/images/services/adhd.jpg",
+        route: "/services/adhd-treatment",
+        title: "Effective Online ADHD Treatment",
+        subtitle: "Personalized Virtual Care for Children, Teens, and Adults",
+        desc:
+            "Ahmed Medical & Psychiatric Care offers comprehensive online ADHD treatment designed to help individuals manage symptoms of inattention, impulsivity, and hyperactivity with consistent, expert support. Through secure virtual sessions, our specialist psychiatrist provides personalized strategies, evidence-based interventions, and continuous monitoring—making ADHD care more accessible, flexible, and effective for patients of all ages.",
+
+        whatIs: {
+            heading: "What is Online ADHD Treatment?",
+            description:
+                "Online ADHD treatment provides individuals with professional psychiatric care through secure virtual sessions, offering assessment, diagnosis, and evidence-based management strategies tailored to unique symptoms and daily challenges.",
+        },
+
+        symptoms: {
+            heading: "Recognizing the Symptoms of ADHD",
+            description:
+                "ADHD presents differently in each person, but several common symptoms can help identify when support is needed:",
+            obsessions: [
+                "Difficulty sustaining attention on tasks, often appearing easily distracted.",
+                "Impulsive actions or decisions without considering consequences.",
+                "Restlessness, fidgeting, and a persistent feeling of being 'on the go.'",
+                "Excessive talking or interrupting conversations frequently.",
+                "Challenges following multi-step instructions accurately.",
+                "Problems with organization, planning, and completing tasks consistently.",
+            ],
+            compulsions: [],
+        },
+
+        causes: {
+            heading: "Benefits of Virtual ADHD Treatment",
+            description:
+                "Online ADHD treatment offers accessible and convenient support while maintaining the same clinical quality as in-person care.",
+            list: [
+                {
+                    title: "Accessibility & Convenience",
+                    desc: "Eliminates travel time and reduces stress, allowing easy access to care from home.",
+                },
+                {
+                    title: "Flexible Scheduling",
+                    desc: "Sessions can be integrated into academic, professional, or busy family routines.",
+                },
+                {
+                    title: "Consistency of Care",
+                    desc: "Virtual attendance makes it easier to maintain regular follow-ups, essential for long-term ADHD management.",
+                },
+                {
+                    title: "Personalized Support",
+                    desc: "Treatment is customized to the individual’s symptoms, lifestyle, and goals.",
+                },
+            ],
+        },
+
+        treatmentProcess: {
+            heading: "Our ADHD Treatment Process",
+            steps: [
+                {
+                    title: "Initial Consultation",
+                    desc: "A comprehensive assessment to understand symptoms, history, and treatment goals.",
+                },
+                {
+                    title: "Detailed Evaluation",
+                    desc: "We develop a customized plan using evidence-based approaches tailored to your needs.",
+                },
+                {
+                    title: "In-Depth Analysis",
+                    desc: "Targeted interventions may include behavioral strategies, counseling, cognitive techniques, and medication management when appropriate.",
+                },
+                {
+                    title: "Ongoing Support",
+                    desc: "Regular virtual sessions ensure continuous monitoring, symptom management, and improvement of daily functioning.",
+                },
+            ],
+        },
+
+        types: {
+            heading: "Our Virtual ADHD Management Approach",
+            list: [
+                "Initial Consultation: A full evaluation of symptoms, background, and functional challenges.",
+                "Customized Treatment Plan: A personalized plan designed using clinically proven ADHD management methods.",
+                "Regular Virtual Sessions: Ongoing therapy, coping strategies, and skill-building tailored to the patient’s goals.",
+                "Continuous Monitoring: Adjustments to the plan as needed to ensure consistent progress and symptom improvement.",
+            ],
+        },
+
+        benefits: {
+            heading: "Benefits of Online ADHD Treatment",
+            list: [
+                {
+                    title: "Accessible Care",
+                    desc: "Get support from anywhere, ideal for busy patients or those with limited travel options.",
+                },
+                {
+                    title: "Comfort & Privacy",
+                    desc: "Virtual sessions allow individuals to receive care in a familiar and comfortable environment.",
+                },
+                {
+                    title: "Consistent Follow-Ups",
+                    desc: "Easier scheduling promotes better continuity, which is crucial for ADHD management.",
+                },
+                {
+                    title: "Tailored Strategies",
+                    desc: "Patients receive guidance designed specifically for their symptoms and lifestyle demands.",
+                },
+            ],
+        },
+
+        whyChoose: {
+            heading: "Why Choose Ahmed Medical & Psychiatric Care for ADHD Treatment?",
+            points: [
+                "Experienced ADHD Specialists: Licensed professionals with expertise in diagnosing and treating ADHD across all ages.",
+                "Personalized Treatment Plans: Every plan is uniquely customized to the individual's challenges and goals.",
+                "Secure & Confidential Virtual Sessions: High-quality psychiatric care delivered safely online.",
+                "Evidence-Based Interventions: Includes behavioral strategies, cognitive tools, and medication management when appropriate.",
+                "Ongoing Care & Support: Regular follow-ups ensure steady progress and long-term success.",
+            ],
+        },
+    },
+    {
+        id: 14,
+        image: "/assets/images/services/anger-management.jpg",
+        route: "/services/anger-management",
+        title: "Online Anger Management Therapy",
+        subtitle: "Regain Control, Strengthen Relationships, and Improve Emotional Balance",
+        desc:
+            "Ahmed Medical & Psychiatric Care provides online anger management therapy designed to help individuals understand emotional triggers, regulate intense reactions, and develop healthier communication habits. Through structured virtual sessions with licensed therapists, you’ll learn evidence-based techniques that enhance emotional control, improve relationships, and promote long-term emotional well-being.",
+
+        whatIs: {
+            heading: "What is Anger Management?",
+            description:
+                "Anger management is a structured therapeutic approach that helps individuals understand their emotional triggers, regulate intense reactions, and express anger in healthier, more productive ways. Through online therapy, patients learn practical techniques to enhance communication, reduce conflict, and maintain emotional balance.",
+        },
+
+        symptoms: {
+            heading: "Who Can Benefit from Anger Management Therapy?",
+            description:
+                "Online anger management therapy is ideal for individuals who feel their anger is affecting daily life, relationships, or emotional well-being.",
+            obsessions: [
+                "Frequent irritability or emotional outbursts.",
+                "Persistent conflicts at home, work, or in relationships.",
+                "Difficulty controlling anger or calming down after triggering events.",
+                "Stress or frustration leading to reactive behavior.",
+                "Recommendations from healthcare providers or the legal system to seek therapy.",
+                "A desire to proactively improve emotional regulation and communication skills.",
+            ],
+            compulsions: [],
+        },
+
+        causes: {
+            heading: "Why Choose Online Anger Management Therapy?",
+            description:
+                "Virtual anger management sessions offer a secure, accessible, and flexible way to address emotional regulation challenges with professional support.",
+            list: [
+                {
+                    title: "Flexibility & Privacy",
+                    desc: "Receive therapy from the comfort and confidentiality of your home.",
+                },
+                {
+                    title: "Accessibility",
+                    desc: "Ideal for individuals with busy schedules, mobility challenges, or remote locations.",
+                },
+                {
+                    title: "High-Quality Care",
+                    desc: "Get professional, evidence-based support without compromising the therapeutic standard.",
+                },
+                {
+                    title: "Insurance Options",
+                    desc: "Many insurance plans cover online anger management sessions. Contact us to verify your coverage.",
+                },
+            ],
+        },
+
+        treatmentProcess: {
+            heading: "How Our Anger Management Therapy Works",
+            steps: [
+                {
+                    title: "Initial Assessment",
+                    desc: "A detailed evaluation to identify emotional triggers, personal history, and therapy goals.",
+                },
+                {
+                    title: "Customized Treatment Plan",
+                    desc: "A personalized plan using evidence-based strategies for regulating emotional responses.",
+                },
+                {
+                    title: "Ongoing Sessions",
+                    desc: "Regular virtual therapy sessions to practice emotional regulation, mindfulness, and communication skills.",
+                },
+                {
+                    title: "Progress Monitoring",
+                    desc: "Continuous evaluation and adjustments to ensure the treatment plan meets your evolving needs.",
+                },
+            ],
+        },
+
+        types: {
+            heading: "What to Expect During Virtual Sessions",
+            list: [
+                "Discuss Your Concerns: Share triggers, experiences, and situations you want to work on.",
+                "Learn New Techniques: Gain mindfulness, breathing, and cognitive restructuring skills to manage anger.",
+                "Practice in Real-Time: Apply coping strategies during sessions with therapist feedback.",
+                "Goal Setting: Establish achievable short- and long-term goals for emotional control and overall balance.",
+            ],
+        },
+
+        benefits: {
+            heading: "Benefits of Online Anger Management",
+            list: [
+                {
+                    title: "Improved Emotional Regulation",
+                    desc: "Gain better control over intense emotional reactions and reduce impulsive responses.",
+                },
+                {
+                    title: "Stronger Relationships",
+                    desc: "Develop healthier communication habits and decrease conflict in personal and professional settings.",
+                },
+                {
+                    title: "Greater Self-Awareness",
+                    desc: "Identify triggers and patterns that influence anger responses.",
+                },
+                {
+                    title: "Long-Term Emotional Balance",
+                    desc: "Build skills that support a more stable and peaceful daily life.",
+                },
+            ],
+        },
+
+        whyChoose: {
+            heading: "Why Choose Ahmed Medical & Psychiatric Care for Anger Management?",
+            points: [
+                "Specialized Therapists: Licensed clinicians experienced in anger management and emotional regulation.",
+                "Comprehensive Mental Health Support: Integrated care for related issues like anxiety or depression.",
+                "Personalized Treatment: Each therapy plan is tailored to your individual triggers and emotional patterns.",
+                "Convenient Telehealth Platform: Access therapy from anywhere through a secure and user-friendly virtual system.",
+                "Supportive, Patient-Centered Care: A compassionate environment focused on lasting emotional growth.",
+            ],
+        },
+    },
+    {
+        id: 15,
+        image: "/assets/images/services/alcohol-abuse.jpg",
+        route: "/services/alcohol-abuse",
+        title: "Online Alcohol Abuse Treatment",
+        subtitle: "Compassionate, Confidential, and Effective Support Through Telehealth",
+        desc:
+            "Ahmed Medical & Psychiatric Care provides comprehensive, evidence-based virtual treatment for alcohol abuse. Through our secure telehealth platform, patients receive personalized care, including therapy, medical support, and long-term recovery planning. Our online approach ensures convenience, privacy, and continuous professional support throughout your journey toward sobriety.",
+
+        whatIs: {
+            heading: "What is Alcohol Abuse?",
+            description:
+                "Alcohol abuse—also known as alcohol misuse—refers to a harmful pattern of drinking that negatively impacts physical health, emotional well-being, or daily responsibilities. While not the same as Alcohol Use Disorder (AUD), repeated alcohol misuse can lead to loss of control, dependence, and serious consequences in work, relationships, or legal matters. Early intervention can prevent progression and support long-term recovery.",
+        },
+
+        symptoms: {
+            heading: "Who Can Benefit from Alcohol Abuse Treatment?",
+            description:
+                "Telehealth treatment is ideal for anyone who feels their drinking is becoming difficult to control or is affecting their health, relationships, or lifestyle.",
+            obsessions: [
+                "Drinking more than intended or struggling to cut down.",
+                "Feeling shame, guilt, or regret after drinking.",
+                "Relationship, work, or legal problems caused by alcohol use.",
+                "Needing more alcohol to feel the same effect (tolerance).",
+                "Experiencing withdrawal symptoms such as anxiety or tremors.",
+                "Avoiding important activities because of alcohol.",
+                "Continuing to drink despite physical or mental harm.",
+            ],
+            compulsions: [],
+        },
+
+        causes: {
+            heading: "Why Choose Telehealth for Alcohol Abuse Treatment?",
+            description:
+                "Online treatment for alcohol abuse provides a discreet, flexible, and accessible way to begin recovery without the barriers of in-person visits.",
+            list: [
+                {
+                    title: "Discreet and Private",
+                    desc: "Attend therapy and medical sessions from your preferred confidential location.",
+                },
+                {
+                    title: "Accessible for All",
+                    desc: "Ideal for individuals with transportation, mobility, or scheduling challenges.",
+                },
+                {
+                    title: "Convenient Scheduling",
+                    desc: "Easily integrate sessions into work, school, or family routines.",
+                },
+                {
+                    title: "Confidential Care",
+                    desc: "Our telehealth system follows strict privacy and compliance standards to protect your information.",
+                },
+            ],
+        },
+
+        treatmentProcess: {
+            heading: "How We Treat Alcohol Abuse",
+            steps: [
+                {
+                    title: "Initial Comprehensive Assessment",
+                    desc: "A licensed specialist evaluates your drinking patterns, physical health, and co-occurring mental health conditions to determine the most effective treatment path.",
+                },
+                {
+                    title: "Personalized Treatment Plan",
+                    desc: "Your plan may include Cognitive Behavioral Therapy, Motivational Interviewing, Medication-Assisted Treatment (MAT), and other evidence-based approaches tailored to your needs.",
+                },
+                {
+                    title: "Ongoing Support & Therapy",
+                    desc: "Through regular sessions, you’ll develop coping strategies, relapse prevention skills, emotional regulation techniques, and improved communication habits.",
+                },
+                {
+                    title: "Long-Term Recovery & Maintenance",
+                    desc: "We support you with community resources, support groups, and long-term planning to maintain sobriety and build a stable recovery network.",
+                },
+            ],
+        },
+
+        types: {
+            heading: "What to Expect in Virtual Sessions",
+            list: [
+                "Discuss Your Concerns: Talk openly about your challenges, triggers, and goals in a supportive environment.",
+                "Integrated Mental Health Treatment: Address underlying issues like anxiety, trauma, or depression contributing to alcohol misuse.",
+                "Flexible Treatment Options: Access therapy, psychiatric support, and medication-assisted treatment remotely.",
+                "Skill Building for Sobriety: Learn mindfulness, stress management, and other tools for handling high-risk situations.",
+            ],
+        },
+
+        benefits: {
+            heading: "Benefits of Online Alcohol Abuse Treatment",
+            list: [
+                {
+                    title: "Confidential Professional Support",
+                    desc: "Receive expert care without the visibility or stigma of in-person treatment.",
+                },
+                {
+                    title: "Holistic Recovery Approach",
+                    desc: "Treatment addresses both alcohol misuse and related mental health concerns.",
+                },
+                {
+                    title: "Relapse Prevention Skills",
+                    desc: "Learn practical techniques for navigating cravings and high-risk situations.",
+                },
+                {
+                    title: "Convenient Access to Care",
+                    desc: "Get help from anywhere, making consistent participation easier and more sustainable.",
+                },
+            ],
+        },
+
+        whyChoose: {
+            heading: "Why Choose Ahmed Medical & Psychiatric Care for Alcohol Abuse Treatment?",
+            points: [
+                "Experienced Addiction Specialists: Our licensed psychiatrists and therapists have extensive experience treating Substance Use Disorders.",
+                "Integrated Mental Health Care: We treat both alcohol misuse and co-occurring conditions for comprehensive support.",
+                "Evidence-Based Treatment Plans: Therapy, MAT, and psychiatric management tailored specifically to your recovery needs.",
+                "Confidential & Secure Telehealth: Access high-quality care through a private, HIPAA-compliant platform.",
+                "Long-Term Recovery Support: We provide ongoing guidance, monitoring, and connection to community resources.",
+            ],
+        },
+    },
+    {
+        id: 16,
+        image: "/assets/images/services/smoking-prevention.jpg",
+        route: "/services/smoking-prevention",
+        title: "Online Smoking Prevention & Cessation Treatment",
+        subtitle: "Integrated Psychiatric Care to Help You Quit Smoking Through Telehealth",
+        desc:
+            "Ahmed Medical & Psychiatric Care offers a comprehensive telehealth program designed to help patients quit smoking by addressing nicotine dependence and the mental health factors driving it. Through expert psychiatric care, therapy, and medication-assisted treatment, we provide effective, private, and convenient support for long-term smoking cessation.",
+
+        whatIs: {
+            heading: "How We Help With Smoking Prevention",
+            description:
+                "Our smoking cessation program uses a fully integrated psychiatric model that treats both nicotine addiction and the emotional or psychological challenges that often trigger smoking. Through telehealth, patients receive personalized treatment plans, therapy, medication management, and continual support right from home.",
+        },
+
+        symptoms: {
+            heading: "Who Can Benefit From Smoking Cessation Treatment?",
+            description:
+                "Our telehealth program is ideal for individuals struggling with nicotine dependence or those who want structured professional support to quit smoking.",
+            obsessions: [
+                "Using cigarettes or vaping as a coping mechanism for stress or anxiety.",
+                "Experiencing strong cravings or withdrawal when trying to quit.",
+                "Smoking more frequently during emotional distress.",
+                "Difficulty reducing or controlling nicotine intake.",
+                "Smoking despite health concerns or medical advice.",
+                "Using nicotine to manage symptoms of depression or trauma.",
+            ],
+            compulsions: [],
+        },
+
+        causes: {
+            heading: "Why Choose Telehealth for Smoking Cessation?",
+            description:
+                "Our online approach makes quitting smoking more accessible and manageable by combining therapy, psychiatric expertise, and medication support—all through secure virtual care.",
+            list: [
+                {
+                    title: "Private and Comfortable Environment",
+                    desc: "Receive treatment from home without triggers or stigma often associated with in-clinic visits.",
+                },
+                {
+                    title: "Easy Accessibility",
+                    desc: "Ideal for patients balancing work, family, or transportation limitations.",
+                },
+                {
+                    title: "Convenient Scheduling",
+                    desc: "Flexible virtual appointments ensure consistent participation, which is crucial for quitting.",
+                },
+                {
+                    title: "Integrated Psychiatric Support",
+                    desc: "Simultaneous management of nicotine dependence and mental health conditions improves long-term success.",
+                },
+            ],
+        },
+
+        treatmentProcess: {
+            heading: "How We Help You Quit Smoking",
+            steps: [
+                {
+                    title: "Comprehensive Assessment",
+                    desc: "We evaluate your nicotine dependence, mental health conditions, triggers, and smoking history to create a tailored treatment plan.",
+                },
+                {
+                    title: "Medication-Assisted Treatment (MAT)",
+                    desc: "Our psychiatrists remotely manage medications such as Varenicline (Chantix), Bupropion (Zyban), and Nicotine Replacement Therapy products based on your needs.",
+                },
+                {
+                    title: "Behavioral Therapy",
+                    desc: "We provide Cognitive Behavioral Therapy (CBT) and Motivational Interviewing (MI) to help you replace smoking habits, build coping skills, and strengthen motivation.",
+                },
+                {
+                    title: "Ongoing Monitoring & Adjustment",
+                    desc: "Regular check-ins allow providers to adjust medication, monitor symptoms, and keep you supported through every phase of the quitting journey.",
+                },
+            ],
+        },
+
+        types: {
+            heading: "What to Expect in Virtual Sessions",
+            list: [
+                "Discuss patterns, triggers, and emotional factors contributing to smoking.",
+                "Receive diagnosis and treatment for co-occurring conditions such as anxiety, depression, or trauma.",
+                "Get personalized medication management to reduce cravings and withdrawal.",
+                "Learn evidence-based coping skills and relapse-prevention strategies.",
+            ],
+        },
+
+        benefits: {
+            heading: "Benefits of Online Smoking Cessation Treatment",
+            list: [
+                {
+                    title: "Private and Supportive Care",
+                    desc: "Get treatment discreetly without visiting a clinic.",
+                },
+                {
+                    title: "Whole-Person Approach",
+                    desc: "Treatment addresses both nicotine addiction and the emotional or psychological factors driving it.",
+                },
+                {
+                    title: "Reduced Relapse Risk",
+                    desc: "Therapy and medication together significantly reduce the chances of returning to smoking.",
+                },
+                {
+                    title: "Convenient Access",
+                    desc: "Consistent follow-ups make the quitting process easier and more sustainable.",
+                },
+            ],
+        },
+
+        whyChoose: {
+            heading: "Why Choose Ahmed Medical & Psychiatric Care for Smoking Prevention?",
+            points: [
+                "Integrated psychiatric and therapeutic support for nicotine dependence.",
+                "Expert remote management of MAT medications such as Chantix, Zyban, and NRT.",
+                "Evidence-based therapies like CBT and Motivational Interviewing delivered virtually.",
+                "Secure and private telehealth sessions through a HIPAA-compliant system.",
+                "Frequent check-ins and personalized adjustments to maximize quitting success.",
+            ],
+        },
+    }
 ];
