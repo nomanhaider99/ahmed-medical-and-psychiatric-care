@@ -162,7 +162,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 2,
-        image: '/assets/images/services/mental-health.jpeg',
+        image: '/assets/images/services/mental-health.jpg',
         route: "/services/mental-health",
         title: "Online Mental Health Consultation",
         subtitle: "Professional Mental Health Support Anytime, Anywhere",
