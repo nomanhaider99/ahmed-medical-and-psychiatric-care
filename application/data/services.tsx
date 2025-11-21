@@ -1735,7 +1735,7 @@ export const detailedServicesData: ServiceDetail[] = [
     },
     {
         id: 16,
-        image: "/assets/images/services/smoking-prevention.jpg",
+        image: "/assets/images/services/smoking.jpg",
         route: "/services/smoking-prevention",
         title: "Online Smoking Prevention & Cessation Treatment",
         subtitle: "Integrated Psychiatric Care to Help You Quit Smoking Through Telehealth",
