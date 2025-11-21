@@ -29,6 +29,10 @@ const Skiper48 = ({ onSlideChange }: { onSlideChange: (index: number) => void })
     { src: "/assets/images/disorders/low-self-stream.jpeg", alt: "" },
     { src: "/assets/images/disorders/suicidal-thoughts.jpeg", alt: "" },
     { src: "/assets/images/disorders/ocd.png", alt: "" },
+    { src: "/assets/images/disorders/adhd.jpg", alt: "" },
+    { src: "/assets/images/disorders/anger-management.jpg", alt: "" },
+    { src: "/assets/images/disorders/alcohol-abuse.png", alt: "" },
+    { src: "/assets/images/disorders/smoking.jpg", alt: "" }, 
   ];
 
   return (
@@ -186,6 +190,30 @@ const Services = () => {
       route: '/services/obsessive-compulsive-disorder',
       title: "Obsessive-Compulsive Disorder (OCD)",
       desc: "Obsessive-Compulsive Disorder (OCD) is a mental health condition characterized by persistent, unwanted thoughts (obsessions) and repetitive behaviors (compulsions). These compulsions are performed to reduce the anxiety caused by obsessions. Without treatment, OCD can interfere with daily life, relationships, and overall well-being.",
+    },
+    {
+      id: 13,
+      route: '/services/adhd-treatment',
+      title: "Attention Deficit Hyperactivity Disorder (ADHD)",
+      desc: "Attention Deficit Hyperactivity Disorder (ADHD) is a common neurodevelopmental condition affecting individuals across the lifespan—from childhood through adulthood.1 It is characterized by persistent patterns of inattention, hyperactivity, and impulsivity.2 These core symptoms can significantly impact an individual's executive functioning, making it difficult to maintain focus, manage time, and regulate behavior in academic, professional, and personal environments.",
+    },
+    {
+      id: 14,
+      route: '/services/anger-management',
+      title: "Anger Management",
+      desc: "Anger management is a structured therapeutic process designed to help individuals understand, regulate, and respond constructively to their emotional arousal, particularly anger. Through professional anger management therapy online, you will learn and implement strategies to identify personal triggers, manage intense emotional reactions, and express feelings in a healthier and more productive manner. By developing these critical skills, you can significantly enhance your communication, strengthen your relationships, and improve your overall emotional well-being.",
+    },
+    {
+      id: 15,
+      route: '/services/alcohol-abuse',
+      title: "Alcohol Abuse",
+      desc: "Ahmed Medical and Psychiatric Care leverages its secure telehealth platform to provide comprehensive, evidence-based treatment for alcohol abuse, ensuring convenience without compromising the quality of care. Our virtual approach focuses on personalized, integrated care designed to support patients throughout their recovery journey.",
+    },
+    {
+      id: 16,
+      route: '/services/smoking-prevention',
+      title: "Smoking Prevention",
+      desc: "Psychiatrists and psychiatric providers at Ahmed Medical and Psychiatric Care play a crucial role in smoking prevention and cessation through our secure telehealth platform. We effectively address the underlying mental health factors and manage the high levels of nicotine dependence associated with smoking, offering comprehensive, integrated support right to your home.",
     },
   ];
 
