@@ -17,7 +17,7 @@ import BookingButton from "../ui/booking-button";
 
 const Skiper48 = ({ onSlideChange }: { onSlideChange: (index: number) => void }) => {
   const images = [
-    { src: "/assets/images/disorders/medication-management.png", alt: "" },
+    { src: "/assets/images/disorders/medication-management.jpeg", alt: "" },
     { src: "/assets/images/disorders/mental-health.png", alt: "" },
     { src: "/assets/images/disorders/stress-management.png", alt: "" },
     { src: "/assets/images/disorders/seasonal-disorder.png", alt: "" },
@@ -170,13 +170,13 @@ const Services = () => {
     {
       id: 9,
       route: '/services/self-harm',
-      title: "Self Harm",
+      title: "Self-harm",
       desc: "Self-harm refers to the intentional act of causing physical injury to oneself, often as a way to cope with overwhelming emotions, stress, or psychological distress. Common forms include cutting, burning, hitting, or other actions that produce physical pain. While self-harming behaviors may provide temporary relief from emotional suffering, they often mask deeper issues such as anxiety, depression, or unresolved trauma.",
     },
     {
       id: 10,
       route: '/services/low-self-esteem',
-      title: 'Low Self Esteem',
+      title: 'Low self-esteem',
       desc: 'Low self-esteem is a pervasive and often painful lack of confidence and self-worth. It affects how you view your abilities, your relationships, and your potential for happiness. Self-esteem management is not about instant, fleeting affirmations; it is about fundamentally restructuring negative core beliefs, challenging the inner critic, and developing a stable, compassionate, and realistic appreciation for your own value.'
     },
     {
@@ -206,13 +206,13 @@ const Services = () => {
     {
       id: 15,
       route: '/services/alcohol-abuse',
-      title: "Alcohol Abuse",
+      title: "Alcohol / Drug Use",
       desc: "Ahmed Medical and Psychiatric Care leverages its secure telehealth platform to provide comprehensive, evidence-based treatment for alcohol abuse, ensuring convenience without compromising the quality of care. Our virtual approach focuses on personalized, integrated care designed to support patients throughout their recovery journey.",
     },
     {
       id: 16,
       route: '/services/smoking-prevention',
-      title: "Smoking Prevention",
+      title: "Smoking Cessation",
       desc: "Psychiatrists and psychiatric providers at Ahmed Medical and Psychiatric Care play a crucial role in smoking prevention and cessation through our secure telehealth platform. We effectively address the underlying mental health factors and manage the high levels of nicotine dependence associated with smoking, offering comprehensive, integrated support right to your home.",
     },
   ];

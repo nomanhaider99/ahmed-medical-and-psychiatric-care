@@ -17,16 +17,16 @@ const servicesData = [
   { id: 4, name: "Seasonal Disorder", route: "/services/seasonal-disorder" },
   { id: 5, name: "Depression", route: "/services/depression" },
   { id: 6, name: "Anxiety", route: "/services/anxiety" },
-  { id: 7, name: "Insomnia", route: "/services/insomnia" },
+  { id: 7, name: "Insomnia/Sleeping difficulty", route: "/services/insomnia" },
   { id: 8, name: "Post-Traumatic Stress Disorder (PTSD)", route: "/services/post-traumatic-stress-disorder" },
-  { id: 9, name: "Self Harm", route: "/services/self-harm" },
-  { id: 10, name: "Low Self Esteem", route: "/services/low-self-esteem" },
+  { id: 9, name: "Self-harm", route: "/services/self-harm" },
+  { id: 10, name: "Low self-esteem", route: "/services/low-self-esteem" },
   { id: 11, name: "Suicidal Thoughts", route: "/services/suicidal-thoughts" },
   { id: 12, name: "Obsessive-Compulsive Disorder (OCD)", route: "/services/obsessive-compulsive-disorder" },
   { id: 13, name: "Attention-Deficit/Hyperactivity Disorder (ADHD)", route: "/services/adhd-treatment" },
   { id: 14, name: "Anger Management", route: "/services/anger-management" },
-  { id: 15, name: "Alcohol Abuse", route: "/services/alcohol-abuse" },
-  { id: 16, name: "Smoking Prevention", route: "/services/smoking-prevention" },
+  { id: 15, name: "Alcohol/Drug Use", route: "/services/alcohol-abuse" },
+  { id: 16, name: "Smoking Cessation", route: "/services/smoking-prevention" },
 ];
 
 const Navbar = () => {

@@ -8,7 +8,7 @@ const Team = () => {
                 <div className="md:w-[40%] w-full relative">
                     <Image
                         alt="Expert team member"
-                        src="/assets/images/team.jpg"
+                        src="/assets/images/team.webp"
                         width={500}
                         height={800}
                         className="rounded-l-xl"
