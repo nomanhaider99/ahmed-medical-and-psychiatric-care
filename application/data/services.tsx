@@ -752,8 +752,8 @@ export const detailedServicesData: ServiceDetail[] = [
         id: 7,
         image: '/assets/images/services/insomnia.jpg',
         route: "/services/insomnia",
-        title: "Online Insomnia Treatment",
-        subtitle: "Online Insomnia Treatment",
+        title: "Online Insomnia/Sleeping Difficulty Treatment",
+        subtitle: "Online Insomnia/Sleeping Difficulty Treatment",
         desc:
             "Insomnia is a chronic sleep disorder that makes it difficult to fall asleep, stay asleep, or feel refreshed upon waking. Persistent insomnia can cause daytime fatigue, irritability, and difficulty concentrating, significantly affecting your daily life. Chronic insomnia can contribute to serious physical and emotional health issues if left untreated. Ahmed Medical & Psychiatric Care provides online treatment to help restore restorative sleep.",
 
@@ -942,19 +942,19 @@ export const detailedServicesData: ServiceDetail[] = [
         id: 9,
         image: '/assets/images/services/self-harm.jpg',
         route: "/services/self-harm",
-        title: "Self-Harm Treatment",
-        subtitle: "Self-Harm Treatment",
+        title: "Self-harm Treatment",
+        subtitle: "Self-harm Treatment",
         desc:
-            "Self-harm involves intentionally causing physical injury to oneself as a way to cope with emotional distress, stress, or psychological pain. While it may offer temporary relief, it often masks deeper issues such as anxiety, depression, or unresolved trauma. At Ahmed Medical & Psychiatric Care, our online therapy provides compassionate, structured, and effective support to help individuals overcome self-harming behaviors.",
+            "Self-harm involves intentionally causing physical injury to oneself as a way to cope with emotional distress, stress, or psychological pain. While it may offer temporary relief, it often masks deeper issues such as anxiety, depression, or unresolved trauma. At Ahmed Medical & Psychiatric Care, our online therapy provides compassionate, structured, and effective support to help individuals overcome Self-harming behaviors.",
 
         whatIs: {
-            heading: "What is Self-Harm?",
+            heading: "What is Self-harm?",
             description:
                 "Self-harm refers to the intentional act of causing physical injury to oneself, often as a means of coping with overwhelming emotions or stress. Common forms include cutting, burning, hitting, or other self-injurious actions. These behaviors provide short-term relief but do not address the underlying emotional struggles. Professional support is essential for recovery and healing.",
         },
 
         symptoms: {
-            heading: "Causes and Triggers of Self-Harm",
+            heading: "Causes and Triggers of Self-harm",
             description:
                 "Self-harm often stems from emotional pain, trauma, or psychological distress. Understanding these triggers is key to effective treatment and prevention.",
             obsessions: [
@@ -967,23 +967,23 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         causes: {
-            heading: "How to Support Someone Who Self-Harms",
+            heading: "How to Support Someone Who Self-harms",
             description:
-                "Support from friends and family can make a significant difference in helping someone recover from self-harm. Here’s how you can help effectively and compassionately:",
+                "Support from friends and family can make a significant difference in helping someone recover from Self-harm. Here’s how you can help effectively and compassionately:",
             list: [
                 { title: "Listen Without Judgment", desc: "Show empathy and understanding without criticism or blame." },
                 { title: "Encourage Professional Help", desc: "Gently suggest therapy or counseling to address underlying emotional pain." },
                 { title: "Be Supportive, Not Enabling", desc: "Offer encouragement for healthy coping strategies rather than reinforcing harmful behaviors." },
-                { title: "Educate Yourself", desc: "Learn about self-harm and its triggers to provide informed support." },
+                { title: "Educate Yourself", desc: "Learn about Self-harm and its triggers to provide informed support." },
             ],
         },
 
         treatmentProcess: {
-            heading: "Why Choose Online Therapy for Self-Harm?",
+            heading: "Why Choose Online Therapy for Self-harm?",
             steps: [
                 {
                     title: "Access to Licensed Therapists",
-                    desc: "Get care from experienced professionals specializing in self-harm and related mental health conditions.",
+                    desc: "Get care from experienced professionals specializing in Self-harm and related mental health conditions.",
                 },
                 {
                     title: "Confidentiality and Comfort",
@@ -996,11 +996,11 @@ export const detailedServicesData: ServiceDetail[] = [
             ],
         },
         types: {
-            heading: "Effective Therapies for Self-Harm",
+            heading: "Effective Therapies for Self-harm",
             list: [
                 "Cognitive Behavioral Therapy (CBT) — Helps identify negative thought patterns and develop healthy coping mechanisms.",
                 "Dialectical Behavior Therapy (DBT) — Focuses on emotional regulation, distress tolerance, and mindfulness; especially effective for borderline personality disorder.",
-                "Mentalization-Based Therapy (MBT) — Encourages reflection on thoughts and emotions to better understand and manage self-harming behaviors.",
+                "Mentalization-Based Therapy (MBT) — Encourages reflection on thoughts and emotions to better understand and manage Self-harming behaviors.",
                 "Trauma-Focused Therapy — Addresses past trauma and provides tools to process emotional pain and heal deeply.",
             ],
         },
@@ -1013,7 +1013,7 @@ export const detailedServicesData: ServiceDetail[] = [
                 },
                 {
                     title: "Personalized Therapy Sessions",
-                    desc: "Regular sessions help you explore underlying causes and replace self-harm with healthier coping methods.",
+                    desc: "Regular sessions help you explore underlying causes and replace Self-harm with healthier coping methods.",
                 },
                 {
                     title: "Progress Monitoring",
@@ -1035,8 +1035,8 @@ export const detailedServicesData: ServiceDetail[] = [
         id: 10,
         route: "/services/low-self-esteem",
         image: '/assets/images/services/low-self-stream.jpeg',
-        title: "Online Therapy for Low Self-Esteem",
-        subtitle: "Online Therapy for Low Self-Esteem",
+        title: "Online Therapy for Low self-esteem",
+        subtitle: "Online Therapy for Low self-esteem",
         desc:
             "Low self-esteem is a pervasive lack of confidence and self-worth, affecting how you view your abilities, relationships, and potential for happiness. Ahmed Medical & Psychiatric Care offers online therapy to help dismantle self-doubt, cultivate self-compassion, and build a resilient, authentic sense of self-worth.",
 
@@ -1211,7 +1211,7 @@ export const detailedServicesData: ServiceDetail[] = [
                 },
                 {
                     title: "Ongoing Skills-Focused Sessions",
-                    desc: "Regular sessions focus on DBT and CBT techniques to strengthen emotional regulation and reduce impulsive self-harm urges.",
+                    desc: "Regular sessions focus on DBT and CBT techniques to strengthen emotional regulation and reduce impulsive Self-harm urges.",
                 },
                 {
                     title: "Continuous Monitoring and Core Issue Therapy",
@@ -1234,7 +1234,7 @@ export const detailedServicesData: ServiceDetail[] = [
                 },
                 {
                     title: "Active Skill Training (DBT & CBT)",
-                    desc: "Learn practical, research-backed strategies to regulate emotions and prevent self-harm during crises.",
+                    desc: "Learn practical, research-backed strategies to regulate emotions and prevent Self-harm during crises.",
                 },
                 {
                     title: "Collaborative Crisis Intervention",
@@ -1617,7 +1617,7 @@ export const detailedServicesData: ServiceDetail[] = [
         id: 15,
         image: "/assets/images/services/alcohol-abuse.jpg",
         route: "/services/alcohol-abuse",
-        title: "Online Alcohol Abuse Treatment",
+        title: "Online Alcohol/Drug Use Treatment",
         subtitle: "Compassionate, Confidential, and Effective Support Through Telehealth",
         desc:
             "Ahmed Medical & Psychiatric Care provides comprehensive, evidence-based virtual treatment for alcohol abuse. Through our secure telehealth platform, patients receive personalized care, including therapy, medical support, and long-term recovery planning. Our online approach ensures convenience, privacy, and continuous professional support throughout your journey toward sobriety.",
@@ -1737,7 +1737,7 @@ export const detailedServicesData: ServiceDetail[] = [
         id: 16,
         image: "/assets/images/services/smoking.jpg",
         route: "/services/smoking-prevention",
-        title: "Online Smoking Prevention & Cessation Treatment",
+        title: "Online Smoking Cessation Treatment",
         subtitle: "Integrated Psychiatric Care to Help You Quit Smoking Through Telehealth",
         desc:
             "Ahmed Medical & Psychiatric Care offers a comprehensive telehealth program designed to help patients quit smoking by addressing nicotine dependence and the mental health factors driving it. Through expert psychiatric care, therapy, and medication-assisted treatment, we provide effective, private, and convenient support for long-term smoking cessation.",
