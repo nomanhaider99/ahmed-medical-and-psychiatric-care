@@ -56,14 +56,14 @@ const Navbar = () => {
           </DropdownMenuTrigger>
 
           <DropdownMenuContent
-            className="w-[420px] grid grid-cols-2 gap-x-4 gap-y-1 p-3 font-semibold text-dark-gray border border-vivid-azure/25 rounded-xl shadow-md"
+            className="w-[420px] grid grid-cols-2 gap-x-4 gap-y-1 p-3 font-medium text-dark-gray border border-vivid-azure/25 rounded-xl shadow-md"
           >
             {servicesData.map((item) => (
               <DropdownMenuItem
                 key={item.id}
-                className="cursor-pointer rounded-lg transition-all duration-200 hover:bg-vivid-azure/10 hover:text-vivid-azure"
+                className="cursor-pointer rounded-lg transition-all duration-200 hover:bg-vivid-azure/10 hover:text-vivid-azure border-[1px] border-zinc-800/10"
               >
-                <Link href={item.route} className="block w-full text-[15px]">
+                <Link href={item.route} className="block w-full text-[15px] hover:text-vivid-azure">
                   {item.name}
                 </Link>
               </DropdownMenuItem>
