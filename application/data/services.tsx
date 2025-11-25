@@ -755,16 +755,16 @@ export const detailedServicesData: ServiceDetail[] = [
         title: "Online Insomnia/Sleeping Difficulty Treatment",
         subtitle: "Online Insomnia/Sleeping Difficulty Treatment",
         desc:
-            "Insomnia is a chronic sleep disorder that makes it difficult to fall asleep, stay asleep, or feel refreshed upon waking. Persistent insomnia can cause daytime fatigue, irritability, and difficulty concentrating, significantly affecting your daily life. Chronic insomnia can contribute to serious physical and emotional health issues if left untreated. Ahmed Medical & Psychiatric Care provides online treatment to help restore restorative sleep.",
+            "Insomnia / Sleeping Difficulty is a chronic sleep disorder that makes it difficult to fall asleep, stay asleep, or feel refreshed upon waking. Persistent insomnia can cause daytime fatigue, irritability, and difficulty concentrating, significantly affecting your daily life. Chronic insomnia can contribute to serious physical and emotional health issues if left untreated. Ahmed Medical & Psychiatric Care provides online treatment to help restore restorative sleep.",
 
         whatIs: {
             heading: "What is Insomnia?",
             description:
-                "Insomnia is more than an occasional restless night. It is a chronic sleep disorder that disrupts sleep patterns and affects overall health and daily functioning. Online treatment from Ahmed Medical & Psychiatric Care addresses the underlying causes and promotes better sleep.",
+                "Insomnia / Sleeping Difficulty is more than an occasional restless night. It is a chronic sleep disorder that disrupts sleep patterns and affects overall health and daily functioning. Online treatment from Ahmed Medical & Psychiatric Care addresses the underlying causes and promotes better sleep.",
         },
 
         symptoms: {
-            heading: "Symptoms and Causes of Insomnia",
+            heading: "Symptoms and Causes of Insomnia / Sleeping Difficulty",
             description: "Common signs of insomnia include difficulty sleeping and daytime fatigue. Causes can vary, including stress, mental health conditions, medical issues, and poor sleep habits.",
             obsessions: [
                 "Difficulty falling or staying asleep",
@@ -783,7 +783,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         causes: {
-            heading: "Benefits of Online Insomnia Treatment",
+            heading: "Benefits of Online Insomnia / Sleeping Difficulty Treatment",
             description:
                 "Ahmed Medical & Psychiatric Care’s online insomnia treatment provides accessible, personalized, and convenient care.",
             list: [
@@ -795,26 +795,26 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         treatmentProcess: {
-            heading: "Types of Insomnia We Treat",
+            heading: "Types of Insomnia / Sleeping Difficulty We Treat",
             steps: [
                 {
-                    title: "Acute Insomnia",
+                    title: "Acute Insomnia / Sleeping Difficulty",
                     desc: "Short-term insomnia caused by stress, environmental changes, or anxiety, typically lasting days or weeks.",
                 },
                 {
-                    title: "Onset Insomnia",
+                    title: "Onset Insomnia / Sleeping Difficulty",
                     desc: "Difficulty falling asleep at the start of the night.",
                 },
                 {
-                    title: "Chronic Insomnia",
+                    title: "Chronic Insomnia / Sleeping Difficulty",
                     desc: "Long-term sleep disturbances lasting three months or more, often linked to physical or mental health conditions.",
                 },
                 {
-                    title: "Maintenance Insomnia",
+                    title: "Maintenance Insomnia / Sleeping Difficulty",
                     desc: "Waking during the night and struggling to return to sleep.",
                 },
                 {
-                    title: "Sleep-Onset Anxiety Insomnia",
+                    title: "Sleep-Onset Anxiety Insomnia / Sleeping Difficulty",
                     desc: "Difficulty falling asleep due to worry or anxiety.",
                 },
             ],
@@ -1041,13 +1041,13 @@ export const detailedServicesData: ServiceDetail[] = [
             "Low self-esteem is a pervasive lack of confidence and self-worth, affecting how you view your abilities, relationships, and potential for happiness. Ahmed Medical & Psychiatric Care offers online therapy to help dismantle self-doubt, cultivate self-compassion, and build a resilient, authentic sense of self-worth.",
 
         whatIs: {
-            heading: "What is Low Self-Esteem?",
+            heading: "What is Low Self-esteem?",
             description:
                 "Low self-esteem is a negative self-perception that influences emotions, decisions, and social interactions. Online therapy focuses on restructuring negative beliefs, challenging the inner critic, and developing a stable sense of personal value.",
         },
 
         symptoms: {
-            heading: "Effects of Low Self-Esteem",
+            heading: "Effects of Low Self-esteem",
             description:
                 "Chronic low self-esteem can severely impact mental health, decision-making, and relationships. It often leads to underachievement, social withdrawal, and emotional distress.",
             obsessions: [
@@ -1062,7 +1062,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         causes: {
-            heading: "Benefits of Remote Help to Manage Low Self-Esteem",
+            heading: "Benefits of Remote Help to Manage Low Self-esteem",
             description:
                 "Remote self-esteem therapy offers privacy, flexibility, and a non-judgmental environment to practice skills and develop healthier self-perceptions.",
             list: [
@@ -1086,7 +1086,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         treatmentProcess: {
-            heading: "How Our Virtual Self-Esteem Therapy Works",
+            heading: "How Our Virtual Self-esteem Therapy Works",
             steps: [
                 {
                     title: "Initial Consultation",
@@ -1113,7 +1113,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         benefits: {
-            heading: "What Can You Expect from Online Self-Esteem Counseling?",
+            heading: "What Can You Expect from Online Self-esteem Counseling?",
             list: [
                 {
                     title: "A Deep Exploration of Core Beliefs",
@@ -1625,11 +1625,11 @@ export const detailedServicesData: ServiceDetail[] = [
         whatIs: {
             heading: "What is Alcohol Abuse?",
             description:
-                "Alcohol abuse—also known as alcohol misuse—refers to a harmful pattern of drinking that negatively impacts physical health, emotional well-being, or daily responsibilities. While not the same as Alcohol Use Disorder (AUD), repeated alcohol misuse can lead to loss of control, dependence, and serious consequences in work, relationships, or legal matters. Early intervention can prevent progression and support long-term recovery.",
+                "Alcohol / Drug usealso known as alcohol misuse—refers to a harmful pattern of drinking that negatively impacts physical health, emotional well-being, or daily responsibilities. While not the same as Alcohol Use Disorder (AUD), repeated alcohol misuse can lead to loss of control, dependence, and serious consequences in work, relationships, or legal matters. Early intervention can prevent progression and support long-term recovery.",
         },
 
         symptoms: {
-            heading: "Who Can Benefit from Alcohol Abuse Treatment?",
+            heading: "Who Can Benefit from Alcohol / Drug Use Treatment?",
             description:
                 "Telehealth treatment is ideal for anyone who feels their drinking is becoming difficult to control or is affecting their health, relationships, or lifestyle.",
             obsessions: [
@@ -1645,7 +1645,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         causes: {
-            heading: "Why Choose Telehealth for Alcohol Abuse Treatment?",
+            heading: "Why Choose Telehealth for Alcohol / Drug Use Treatment?",
             description:
                 "Online treatment for alcohol abuse provides a discreet, flexible, and accessible way to begin recovery without the barriers of in-person visits.",
             list: [
@@ -1669,7 +1669,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         treatmentProcess: {
-            heading: "How We Treat Alcohol Abuse",
+            heading: "How We Treat Alcohol / Drug Use",
             steps: [
                 {
                     title: "Initial Comprehensive Assessment",
@@ -1701,7 +1701,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         benefits: {
-            heading: "Benefits of Online Alcohol Abuse Treatment",
+            heading: "Benefits of Online Alcohol / Drug Use Treatment",
             list: [
                 {
                     title: "Confidential Professional Support",
