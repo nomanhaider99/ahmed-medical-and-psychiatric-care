@@ -159,7 +159,7 @@ const Services = () => {
       id: 7,
       route: '/services/insomnia',
       title: "Insomnia / Sleeping Difficulty",
-      desc: "Insomnia is more than an occasional restless night. It’s a chronic sleep disorder that makes it difficult to fall asleep, stay asleep, or feel refreshed upon waking. Persistent insomnia can cause daytime fatigue, irritability, and difficulty concentrating, significantly affecting your daily life. While short-term sleeplessness is common, chronic insomnia can contribute to serious physical and emotional health issues if left untreated.",
+      desc: "Insomnia / Sleeping Difficulty is more than an occasional restless night. It’s a chronic sleep disorder that makes it difficult to fall asleep, stay asleep, or feel refreshed upon waking. Persistent insomnia can cause daytime fatigue, irritability, and difficulty concentrating, significantly affecting your daily life. While short-term sleeplessness is common, chronic insomnia can contribute to serious physical and emotional health issues if left untreated.",
     },
     {
       id: 8,
