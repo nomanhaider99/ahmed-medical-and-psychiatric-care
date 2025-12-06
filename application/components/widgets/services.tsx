@@ -1,6 +1,6 @@
 "use client";
 
-import { m, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import React, { useState } from "react";
 import { Autoplay, EffectCards, Navigation, Pagination } from "swiper/modules";

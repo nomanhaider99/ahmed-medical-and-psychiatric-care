@@ -17,10 +17,10 @@ export async function POST(request: Request) {
       },
       { status: 200 }
     );
-  } catch (error: any) {
+  } catch (error) {
     return NextResponse.json(
       {
-        message: error?.message || 'Internal Server Error'
+        message: error || 'Internal Server Error'
       },
       { status: 500 }
     );
