@@ -11,7 +11,7 @@ const Button = (
         variant = 'primary'
     }: ButtonProps
 ) => {
-    var className: string = '';
+    let className: string = '';
     switch (variant) {
         case 'primary':
             className = 'bg-vivid-azure shadow-vivid-azure shadow-2xs text-white font-medium px-4 py-2 rounded-lg cursor-pointer w-full '

@@ -1,9 +1,7 @@
 import Link from "next/link"
-import Button from "../ui/button"
 import Logo from "../ui/logo"
 import SocialIcon from "../ui/social-icon"
 import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt } from "react-icons/fa"
-import { FaXTwitter } from "react-icons/fa6"
 import { MdEmail, MdFax } from "react-icons/md"
 
 const Footer = () => {

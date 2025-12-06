@@ -1,4 +1,3 @@
-import Button from "../ui/button";
 import Chatbot from "../ui/chatbot";
 
 const Hero = () => {

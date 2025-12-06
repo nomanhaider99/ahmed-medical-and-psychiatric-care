@@ -1,7 +1,5 @@
 import Image from "next/image"
-import Button from "../ui/button"
-import { FaFax, FaPhoneAlt } from "react-icons/fa"
-import Link from "next/link"
+import { FaPhoneAlt } from "react-icons/fa"
 import BookingButton from "../ui/booking-button"
 
 const Description = () => {
