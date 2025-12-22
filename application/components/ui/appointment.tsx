@@ -102,7 +102,6 @@ const Appointment = () => {
                     <div className='flex flex-col gap-1'>
                         <Label>Reason to Visit</Label>
                         <Textarea
-                            placeholder='Experiencing anxiety and difficulty sleeping over the past few weeks.'
                             className='min-h-[150px]'
                             onChange={(e) => setreason(e.target.value)}
                             value={reason}
