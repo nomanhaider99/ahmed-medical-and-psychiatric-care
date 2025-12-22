@@ -15,6 +15,7 @@ import { useState } from "react";
 import Logo from "./logo";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import BookingButton from '@/components/ui/booking-button';
+import Button from "./button";
 
 const servicesData = [
   { id: 1, name: "Medication Management", route: "/services/medication-management" },
@@ -105,7 +106,9 @@ const MobileMenu = () => {
 
         {/* Footer */}
         <SheetFooter className="w-full flex flex-col items-center mt-10 border-t border-blue-100 pt-6">
-          <BookingButton btnVariant="primary" />
+          <Link href="/appointment">
+            <Button text="Book Consultation" variant="primary" />
+          </Link>
           <p className="text-center text-sm text-gray-500 mt-3">
             Compassionate care. Modern treatment. Better health.
           </p>
