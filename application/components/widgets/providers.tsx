@@ -12,7 +12,7 @@ const providersImages = [
 const Providers = () => {
     return (
         <div className='w-full flex flex-col items-center gap-5 md:px-20 px-4 py-10'>
-            <h2 className='lg:text-[2rem] text-[1.5rem] text-dark-gray tracking-tight font-medium'>You can pay out-of-pocket or use your Blue Cross Blue Shield, Cigna, Aetna, and United Healthcare insurance plans to cover treatment from licensed Ahmed Medical health care providers.</h2>
+            <h2 className='lg:text-[2rem] text-[1.5rem] text-dark-gray tracking-tight font-medium'>We accept both Self-pay and insurance patients</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4 gap-2 items-center">
                 {providersImages.map((item, index) => (
                     <div

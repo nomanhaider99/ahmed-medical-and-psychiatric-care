@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PT_Sans } from "next/font/google";
 import "./globals.css";
 import { OrganizationSchema } from "./structured-data";
+import { Toaster } from 'react-hot-toast';
 
 const font = PT_Sans({
   subsets: ["latin"],
@@ -63,6 +64,7 @@ export default function RootLayout({
         className={`${font.className} w-full flex flex-col justify-between items-center`}
       >
         {children}
+        <Toaster position="top-center" />
       </body>
     </html>
   );

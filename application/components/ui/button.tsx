@@ -2,13 +2,15 @@ interface ButtonProps {
     text: string;
     variant: 'primary' | 'secondary' | 'rounded-circular';
     disabled?: boolean;
+    ButtonType?: 'submit'
 }
 
 const Button = (
     {
         disabled = false,
         text,
-        variant = 'primary'
+        variant = 'primary',
+        ButtonType = 'submit'
     }: ButtonProps
 ) => {
     var className: string = '';
@@ -30,6 +32,7 @@ const Button = (
     <button
         className={className}
         disabled={disabled}
+        type={ButtonType}
     >
         {text}
     </button>

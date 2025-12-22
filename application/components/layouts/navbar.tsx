@@ -11,7 +11,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { IoIosArrowDown } from 'react-icons/io';
-import BookingButton from "../ui/booking-button"
 
 const servicesData = [
   { id: 1, name: "Medication Management", route: "/services/medication-management" },
@@ -55,7 +54,7 @@ const Navbar = () => {
           </DropdownMenuTrigger>
 
           <DropdownMenuContent
-            className="w-[420px] grid grid-cols-2 gap-x-4 gap-y-1 p-3 font-semibold text-dark-gray border border-vivid-azure/25 rounded-xl shadow-md"
+            className="w-[420px] grid grid-cols-2 gap-x-4 gap-y-1 p-3 font-medium text-dark-gray border border-vivid-azure/25 rounded-xl shadow-md"
           >
             {servicesData.map((item) => (
               <DropdownMenuItem
@@ -90,7 +89,9 @@ const Navbar = () => {
           Our Team
         </Link>
 
-        <BookingButton btnVariant="primary" />
+        <Link href="/appointment">
+            <Button text="Book Consultation" variant="primary" />
+        </Link>
       </ul>
 
       <div className="sm:hidden block">

@@ -18,6 +18,7 @@ export async function POST(request: Request) {
       { status: 200 }
     );
   } catch (error: any) {
+    console.log(error)
     return NextResponse.json(
       {
         message: error?.message || 'Internal Server Error'
