@@ -65,7 +65,7 @@ const Appointment = () => {
                     Schedule Your Appointment
                 </h1>
                 <p className='md:text-xl text-vivid-green'>
-                    Please fill out all information so that we may serve you better.
+                    Please fill in all required details for better assistance.
                 </p>
             </div>
 
