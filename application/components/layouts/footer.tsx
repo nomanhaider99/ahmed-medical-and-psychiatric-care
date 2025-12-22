@@ -46,11 +46,6 @@ const Footer = () => {
               icon={<FaInstagram size={20} color="#fff" />}
             />
           </Link>
-          <Link target="_blank" href={'https://linkedin.com/in/ahmed-medical-psychiatric-care'}>
-            <SocialIcon
-              icon={<FaLinkedin size={20} color="#fff" />}
-            />
-          </Link>
         </div>
       </div>
     </footer>

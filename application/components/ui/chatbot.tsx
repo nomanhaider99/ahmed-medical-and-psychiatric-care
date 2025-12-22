@@ -57,12 +57,13 @@ export default function Chatbot() {
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition cursor-pointer flex justify-center items-center"
+          className="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition cursor-pointer flex justify-center items-center px-4 leading-none"
         >
           <div className="w-full flex translate-x-1">
             <BsFillChatLeftFill size={24} className="-z-10" />
           <BsChatRightDots size={24} className="translate-y-2 -translate-x-3 z-20"  />
           </div>
+          Ask Assistant
         </button>
       )}
 

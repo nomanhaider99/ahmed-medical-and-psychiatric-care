@@ -1,16 +1,11 @@
-import { 
-  Agent, 
-  run, 
-  OpenAIChatCompletionsModel 
-} from "@openai/agents";
-import OpenAI from "openai";
+import { GoogleGenAI } from "@google/genai";
+import { config } from 'dotenv'
 
-const openai = new OpenAI({
-  apiKey: process.env.GEMINI_API_KEY,
-  baseURL: process.env.GEMINI_BASE_URL,
+config();
+
+const ai = new GoogleGenAI({
+  apiKey: process.env.NEXT_PUBIC_GEMINI_API_KEY,
 });
-
-const model = new OpenAIChatCompletionsModel(openai, 'gemini-2.0-flash');
 
 const systemInstruction = `
 You are the official AI assistant for Ahmed Medical & Psychiatric Care, a professional mental health clinic dedicated to providing compassionate, evidence-based treatment for various psychiatric and emotional conditions through virtual consultations.
@@ -59,8 +54,7 @@ If asked how to contact or connect, respond with:
 “You can reach us at (442) 777-0876 or email info@ahmedmedicalpsychiatriccare.com  
 We are also on:  
 Facebook: https://www.facebook.com/profile.php?id=61583141767923  
-Instagram: https://www.instagram.com/ahmed_medical_psychiatric_care/  
-LinkedIn: https://linkedin.com/in/ahmed-medical-psychiatric-care”
+Instagram: https://www.instagram.com/ahmed_medical_psychiatric_care/  ”
 
 💬 Tone & Style Guidelines
 - Be empathetic, respectful, and calm.
@@ -100,18 +94,6 @@ Here are Our Patients Feedback:
 - Never give medical advice — always refer to consultation.
 `;
 
-
-const ai_assistant = new Agent({
-  name: "Assistant",
-  instructions: systemInstruction,
-  model: model,
-  modelSettings: {
-    maxTokens: 500,
-    temperature: 0,
-    topP: 0.9
-  },
-});
-
 function normalizePrompt(prompt: string) {
   return prompt
     .replace(/i want to know about/i, "what are")
@@ -120,7 +102,13 @@ function normalizePrompt(prompt: string) {
 }
 
 export async function chatbot(prompt: string) {
-  const normalized = normalizePrompt(prompt);
-  const result = await run(ai_assistant, normalized);
-  return result.finalOutput;
+  const response = await ai.models.generateContent({
+    model: "gemini-2.5-flash",
+    contents: prompt,
+    config: {
+      systemInstruction: systemInstruction,
+      temperature: 0.1,
+    },
+  });
+  return response.text;
 }

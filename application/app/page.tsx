@@ -7,7 +7,6 @@ import Hero from "@/components/widgets/hero";
 import Providers from "@/components/widgets/providers";
 import Services from "@/components/widgets/services";
 import Team from "@/components/widgets/team";
-import Testimonials from "@/components/widgets/testimonials";
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
       <Hero />
       <Description />
       <Team />
-      <Testimonials />
       <Services />
       <Providers />
       <FAQs />

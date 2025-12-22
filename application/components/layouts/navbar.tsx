@@ -1,14 +1,16 @@
+import Image from "next/image"
 import Link from "next/link"
+import Button from "../ui/button"
 import Logo from "../ui/logo"
 import MobileMenu from "../ui/mobile-menu"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
+  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { IoIosArrowDown } from 'react-icons/io';
-import BookingButton from "../ui/booking-button"
 
 const servicesData = [
   { id: 1, name: "Medication Management", route: "/services/medication-management" },
@@ -17,16 +19,12 @@ const servicesData = [
   { id: 4, name: "Seasonal Disorder", route: "/services/seasonal-disorder" },
   { id: 5, name: "Depression", route: "/services/depression" },
   { id: 6, name: "Anxiety", route: "/services/anxiety" },
-  { id: 7, name: "Insomnia/Sleeping difficulty", route: "/services/insomnia" },
+  { id: 7, name: "Insomnia", route: "/services/insomnia" },
   { id: 8, name: "Post-Traumatic Stress Disorder (PTSD)", route: "/services/post-traumatic-stress-disorder" },
-  { id: 9, name: "Self-harm", route: "/services/self-harm" },
-  { id: 10, name: "Low self-esteem", route: "/services/low-self-esteem" },
+  { id: 9, name: "Self Harm", route: "/services/self-harm" },
+  { id: 10, name: "Low Self Esteem", route: "/services/low-self-esteem" },
   { id: 11, name: "Suicidal Thoughts", route: "/services/suicidal-thoughts" },
   { id: 12, name: "Obsessive-Compulsive Disorder (OCD)", route: "/services/obsessive-compulsive-disorder" },
-  { id: 13, name: "Attention-Deficit/Hyperactivity Disorder (ADHD)", route: "/services/adhd-treatment" },
-  { id: 14, name: "Anger Management", route: "/services/anger-management" },
-  { id: 15, name: "Alcohol/Drug Use", route: "/services/alcohol-abuse" },
-  { id: 16, name: "Smoking Cessation", route: "/services/smoking-prevention" },
 ];
 
 const Navbar = () => {
@@ -34,7 +32,7 @@ const Navbar = () => {
     <nav className="w-full flex items-center justify-between lg:px-10 sm:px-6 px-4 md:h-[120px] bg-white pt-1">
       <Logo />
       <ul className="sm:flex hidden items-center gap-6 text-xl text-dark-gray">
-
+        
         {/* Home */}
         <Link
           href="/"
@@ -61,9 +59,9 @@ const Navbar = () => {
             {servicesData.map((item) => (
               <DropdownMenuItem
                 key={item.id}
-                className="cursor-pointer rounded-lg transition-all duration-200 hover:bg-vivid-azure/10 hover:text-vivid-azure border-[1px] border-zinc-800/10"
+                className="cursor-pointer rounded-lg transition-all duration-200 hover:bg-vivid-azure/10 hover:text-vivid-azure"
               >
-                <Link href={item.route} className="block w-full text-[15px] hover:text-vivid-azure">
+                <Link href={item.route} className="block w-full text-[15px]">
                   {item.name}
                 </Link>
               </DropdownMenuItem>
@@ -83,7 +81,7 @@ const Navbar = () => {
 
         {/* Our Team */}
         <Link
-          href="/team"
+          href="/our-team"
           className="relative hover:scale-105 transition-all hover:font-medium hover:text-vivid-green
           after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-vivid-green 
           after:transition-all after:duration-300 hover:after:w-full"
@@ -91,7 +89,9 @@ const Navbar = () => {
           Our Team
         </Link>
 
-        <BookingButton btnVariant="primary" />
+        <Link href="/appointment">
+            <Button text="Book Consultation" variant="primary" />
+        </Link>
       </ul>
 
       <div className="sm:hidden block">

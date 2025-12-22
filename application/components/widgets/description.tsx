@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { FaPhoneAlt } from "react-icons/fa"
-import BookingButton from "../ui/booking-button"
+import Link from "next/link"
+import Button from "../ui/button"
 
 const Description = () => {
   return (
@@ -27,7 +28,9 @@ const Description = () => {
           </p>
 
           <div className="w-full sm:w-1/2 md:w-2/3 lg:w-2/5">
-            <BookingButton btnVariant="primary" />
+            <Link href="/appointment">
+              <Button text="Book Consultation" variant="primary" />
+            </Link>
           </div>
         </div>
       </div>
@@ -37,7 +40,7 @@ const Description = () => {
         <div className="relative w-full max-w-[500px] aspect-[4/5] rounded-2xl overflow-hidden">
           <Image
             alt="Doctor holding tablet"
-            src="/assets/images/doctor-pad.jpg"
+            src="/assets/images/doctor-pad.jpeg"
             fill
             sizes="(max-width: 768px) 100vw, 100vw"
             priority
