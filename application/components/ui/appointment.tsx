@@ -74,7 +74,7 @@ const Appointment = () => {
                     <div className='flex flex-col gap-1'>
                         <Label>Patient Name</Label>
                         <Input
-                            placeholder='John A. Smith'
+                            placeholder='Enter your Full Name'
                             onChange={(e) => setpatient_name(e.target.value)}
                             value={patient_name}
                         />
@@ -83,7 +83,7 @@ const Appointment = () => {
                     <div className='flex flex-col gap-1'>
                         <Label>Insurance Provider</Label>
                         <Input
-                            placeholder='Blue Cross Blue Shield'
+                            placeholder='Enter your Insurance Provider'
                             onChange={(e) => setinsurance_provider(e.target.value)}
                             value={insurance_provider}
                         />
@@ -92,7 +92,7 @@ const Appointment = () => {
                     <div className='flex flex-col gap-1'>
                         <Label>Phone Number</Label>
                         <Input
-                            placeholder='(312) 555-0198'
+                            placeholder='Enter your Phone Number'
                             type='tel'
                             onChange={(e) => setphone_number(e.target.value)}
                             value={phone_number}

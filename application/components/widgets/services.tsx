@@ -261,7 +261,9 @@ const Services = () => {
               </Link>
             </div>
             <div className="">
-              <BookingButton btnVariant="secondary" />
+              <Link href="/appointment">
+                <Button text="Book Consultation" variant="secondary" />
+              </Link>
             </div>
           </div>
         </div>
