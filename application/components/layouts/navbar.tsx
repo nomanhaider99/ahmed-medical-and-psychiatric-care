@@ -81,7 +81,7 @@ const Navbar = () => {
 
         {/* Our Team */}
         <Link
-          href="/our-team"
+          href="/team"
           className="relative hover:scale-105 transition-all hover:font-medium hover:text-vivid-green
           after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-vivid-green 
           after:transition-all after:duration-300 hover:after:w-full"
