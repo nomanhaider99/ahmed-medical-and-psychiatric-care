@@ -16,7 +16,7 @@ export const sendAppointmentEmail = async (patient_name: string, insurance_name:
         const result = await transporter.sendMail(
             {
                 from: process.env.GMAIL,
-                to: process.env.GMAIL,
+                to: 'info@ahmedmedicalpsychiatriccare.com',
                 subject: 'New Appointment - Ahmed Medical Psychiatric Care',
                 html: `
                     <!DOCTYPE html>
