@@ -29,7 +29,7 @@ const servicesData = [
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex items-center justify-between lg:px-10 sm:px-6 px-4 md:h-[120px] bg-white pt-1">
+    <nav className="w-full flex items-center justify-between lg:pr-10 lg:pl-0 sm:px-6 px-4 md:h-[120px] bg-white pt-1">
       <Logo />
       <ul className="sm:flex hidden items-center gap-6 text-xl text-dark-gray">
         

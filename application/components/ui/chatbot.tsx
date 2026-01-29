@@ -82,7 +82,7 @@ export default function Chatbot() {
       {/* Header */}
       <div className="bg-vivid-azure text-white p-3 h-[75px] flex justify-center items-center rounded-b-full">
         <span className="font-medium text-lg text-center">
-          Ahmed Medical AI Assistant
+          Lyari Medical AI Assistant
         </span>
       </div>
 

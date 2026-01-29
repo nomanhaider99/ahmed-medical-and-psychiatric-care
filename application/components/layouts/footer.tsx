@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="flex flex-col md:items-center items-start gap-3">
         <p className="uppercase text-white font-semibold">Your Path to Wellness Starts Here</p>
         <h2 className="text-[3rem] tracking-tight font-extrabold text-dark-gray leading-none">Request More Information</h2>
-        <p className="md:text-center text-left text-zinc-200 w-full md:w-3/4">Ahmed Medical & Psychiatric Care is a hospital staffed by experienced psychiatrists and therapists dedicated to providing compassionate, evidence-based treatment for anxiety, depression, and other mental health conditions.</p>
+        <p className="md:text-center text-left text-zinc-200 w-full md:w-3/4">Lyari Medical & Psychiatric Care is a hospital staffed by experienced psychiatrists and therapists dedicated to providing compassionate, evidence-based treatment for anxiety, depression, and other mental health conditions.</p>
         <div className="flex lg:flex-row flex-col items-start lg:items-center lg:gap-5 md:gap-3 gap-2">
             <div className="flex items-center gap-2">
               <FaPhoneAlt size={14} />
@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-2">
               <MdEmail size={14} />
-              <span className="font-medium">info@ahmedmedicalpsychiatriccare.com</span>
+              <span className="font-medium">info@lyarimp.com</span>
             </div>
             <div className="flex items-center gap-2">
               <MdFax />
@@ -41,7 +41,7 @@ const Footer = () => {
               icon={<FaFacebook size={20} color="#fff" />}
             />
           </Link>
-          <Link target="_blank" href={'https://www.instagram.com/ahmed_medical_psychiatric_care/'}>
+          <Link target="_blank" href={'https://www.instagram.com/Lyari_medical_psychiatric_care/'}>
             <SocialIcon
               icon={<FaInstagram size={20} color="#fff" />}
             />

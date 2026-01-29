@@ -5,7 +5,7 @@ import FAQs from "@/components/widgets/faqs"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: 'Frequently Asked Questions | Ahmed Medical Psychiatric Care',
+  title: 'Frequently Asked Questions | Lyari Medical Psychiatric Care',
   description: 'Find quick answers to the most common questions about our psychiatric and mental health services, appointments, treatments, and clinic policies — all in one place.',
 }
 

@@ -19,7 +19,7 @@ const Description = () => {
 
         <div className="flex flex-col gap-5 text-dark-gray">
           <p className="text-base sm:text-lg leading-relaxed">
-            At <b><u>Ahmed Medical & Psychiatric Care</u></b>, we provide professional, evidence-based mental health treatment in the comfort of your own home. Our team of licensed mental health professionals is dedicated to delivering patient-centered care, guided by proven, research-backed approaches to support meaningful and lasting outcomes. Every patient is treated as an individual, with empathy, understanding, and respect..
+            At <b><u>Lyari Medical & Psychiatric Care</u></b>, we provide professional, evidence-based mental health treatment in the comfort of your own home. Our team of licensed mental health professionals is dedicated to delivering patient-centered care, guided by proven, research-backed approaches to support meaningful and lasting outcomes. Every patient is treated as an individual, with empathy, understanding, and respect..
           </p>
 
           <p className="flex items-center gap-3 font-extrabold text-lg">
