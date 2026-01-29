@@ -10,19 +10,19 @@ const font = PT_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.ahmedmedicalpsychiatriccare.com/"),
+  metadataBase: new URL("https://www.lyarimp.com/"),
   title: {
-    default: "Ahmed Medical Psychiatric Care",
-    template: "%s | Ahmed Medical Psychiatric Care",
+    default: "Lyari Medical Psychiatric Care",
+    template: "%s | Lyari Medical Psychiatric Care",
   },
   description:
-    "Ahmed Medical & Psychiatric Care provides professional psychiatric and mental health services with compassion and evidence-based treatment.",
+    "Lyari Medical & Psychiatric Care provides professional psychiatric and mental health services with compassion and evidence-based treatment.",
   keywords: [
     "psychiatrist",
     "mental health clinic",
     "therapy",
     "psychiatric care",
-    "Ahmed Medical and Psychiatric Care",
+    "Lyari Medical and Psychiatric Care",
     "best psychiatric services",
     "best mental health services"
   ],
@@ -31,22 +31,22 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://www.ahmedmedicalpsychiatriccare.com/",
-    title: "Ahmed Medical & Psychiatric Care",
+    url: "https://www.lyarimp.com/",
+    title: "Lyari Medical & Psychiatric Care",
     description:
       "Trusted mental health and psychiatric services — expert care for your wellbeing.",
-    siteName: "Ahmed Medical & Psychiatric Care",
+    siteName: "Lyari Medical & Psychiatric Care",
     images: [
       {
         url: "/assets/images/logo.png",
         width: 1200,
         height: 630,
-        alt: "Ahmed Medical & Psychiatric Care",
+        alt: "Lyari Medical & Psychiatric Care",
       },
     ],
   },
   alternates: {
-    canonical: "https://www.ahmedmedicalpsychiatriccare.com/",
+    canonical: "https://www.lyarimp.com/",
   },
 };
 

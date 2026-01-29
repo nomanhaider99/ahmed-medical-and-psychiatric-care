@@ -6,10 +6,10 @@ export function OrganizationSchema() {
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "MedicalOrganization",
-          "name": "Ahmed Medical & Psychiatric Care",
-          "url": "https://www.ahmedmedicalpsychiatriccare.com/",
-          "logo": "https://www.ahmedmedicalpsychiatriccare.com/assets/images/logo.png",
-          "image": "https://www.ahmedmedicalpsychiatriccare.com/assets/images/logo.png",
+          "name": "Lyari Medical & Psychiatric Care",
+          "url": "https://www.lyarimp.com/",
+          "logo": "https://www.lyarimp.com/assets/images/logo.png",
+          "image": "https://www.lyarimp.com/assets/images/logo.png",
           "sameAs": [
             "https://facebook.com/yourpage",
             "https://instagram.com/yourpage"

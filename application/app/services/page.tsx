@@ -5,7 +5,7 @@ import Services from '@/components/widgets/services'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Best Psychiatric & Mental Health Services | Ahmed Medical Psychiatric Care',
+    title: 'Best Psychiatric & Mental Health Services | Lyari Medical Psychiatric Care',
     description: 'Explore our full list of services, including depression, stress management, anxiety, insomnia and much more.',
 }
 

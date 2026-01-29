@@ -123,13 +123,13 @@ const Services = () => {
       id: 1,
       route: '/services/medication-management',
       title: "Medication Management",
-      desc: "Medication management is a crucial component of mental health care, designed to optimize the use of prescribed medications for mental health conditions. At Ahmed Medical & Psychiatric Care, we provide comprehensive online medication management that ensures medications are effective, safe, and tailored to your individual needs.",
+      desc: "Medication management is a crucial component of mental health care, designed to optimize the use of prescribed medications for mental health conditions. At Lyari Medical & Psychiatric Care, we provide comprehensive online medication management that ensures medications are effective, safe, and tailored to your individual needs.",
     },
     {
       id: 2,
       route: '/services/mental-health',
       title: "Mental Health",
-      desc: "Mental health challenges shouldn’t have to wait. At Ahmed Medical Psychiatric Care, we provide online mental health counseling that delivers timely, high-quality care from the comfort of your home. Whether you’re experiencing stress, anxiety, depression, or other mental health concerns, our virtual consultations ensure you receive the support you need, exactly when you need it.",
+      desc: "Mental health challenges shouldn’t have to wait. At Lyari Medical Psychiatric Care, we provide online mental health counseling that delivers timely, high-quality care from the comfort of your home. Whether you’re experiencing stress, anxiety, depression, or other mental health concerns, our virtual consultations ensure you receive the support you need, exactly when you need it.",
     },
     {
       id: 3,
@@ -183,7 +183,7 @@ const Services = () => {
       id: 11,
       route: '/services/suicidal-thoughts',
       title: 'Suicidal Thoughts',
-      desc: "Compassionate Support and Therapy with Ahmed Medical & Psychiatric Care  Experiencing suicidal thoughts (sometimes referred to as suicidality) is a sign of extreme emotional distress, often linked to overwhelming pain, hopelessness, or a sense of entrapment. It is a mental health emergency that requires professional attention. Therapeutic support in this area focuses on stabilization, safety planning, and addressing the underlying mental health conditions—such as severe depression, trauma, or anxiety—that drive these feelings."
+      desc: "Compassionate Support and Therapy with Lyari Medical & Psychiatric Care  Experiencing suicidal thoughts (sometimes referred to as suicidality) is a sign of extreme emotional distress, often linked to overwhelming pain, hopelessness, or a sense of entrapment. It is a mental health emergency that requires professional attention. Therapeutic support in this area focuses on stabilization, safety planning, and addressing the underlying mental health conditions—such as severe depression, trauma, or anxiety—that drive these feelings."
     },
     {
       id: 12,
@@ -207,13 +207,13 @@ const Services = () => {
       id: 15,
       route: '/services/alcohol-abuse',
       title: "Alcohol / Drug Use",
-      desc: "Ahmed Medical and Psychiatric Care leverages its secure telehealth platform to provide comprehensive, evidence-based treatment for alcohol abuse, ensuring convenience without compromising the quality of care. Our virtual approach focuses on personalized, integrated care designed to support patients throughout their recovery journey.",
+      desc: "Lyari Medical and Psychiatric Care leverages its secure telehealth platform to provide comprehensive, evidence-based treatment for alcohol abuse, ensuring convenience without compromising the quality of care. Our virtual approach focuses on personalized, integrated care designed to support patients throughout their recovery journey.",
     },
     {
       id: 16,
       route: '/services/smoking-prevention',
       title: "Smoking Cessation",
-      desc: "Psychiatrists and psychiatric providers at Ahmed Medical and Psychiatric Care play a crucial role in smoking prevention and cessation through our secure telehealth platform. We effectively address the underlying mental health factors and manage the high levels of nicotine dependence associated with smoking, offering comprehensive, integrated support right to your home.",
+      desc: "Psychiatrists and psychiatric providers at Lyari Medical and Psychiatric Care play a crucial role in smoking prevention and cessation through our secure telehealth platform. We effectively address the underlying mental health factors and manage the high levels of nicotine dependence associated with smoking, offering comprehensive, integrated support right to your home.",
     },
   ];
 

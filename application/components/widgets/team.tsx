@@ -26,7 +26,7 @@ const Team = () => {
                     {/* Content Section */}
                     <div className="space-y-4 text-dark-gray">
                         <p className="text-lg">
-                            Our team at <b><u>Ahmed Medical & Psychiatric Care</u></b> is composed of experienced psychiatrists and therapists dedicated to helping you achieve meaningful, measurable improvements in your mental health. We provide compassionate, evidence-based treatment for anxiety, depression, and other mental health conditions.
+                            Our team at <b><u>Lyari Medical & Psychiatric Care</u></b> is composed of experienced psychiatrists and therapists dedicated to helping you achieve meaningful, measurable improvements in your mental health. We provide compassionate, evidence-based treatment for anxiety, depression, and other mental health conditions.
                         </p>
                         <p className="text-lg">
                             Many of our patients experience significant symptom reduction after beginning treatment. Our clinical team is led by recognized experts in psychiatry and psychotherapy, representing diverse specialties and backgrounds. We are committed to the highest standards of care, ensuring each individual feels supported and empowered throughout their mental health journey.

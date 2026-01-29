@@ -2,12 +2,13 @@ import nodemailer from 'nodemailer'
 
 const transporter = nodemailer.createTransport(
     {
-        service: "gmail",
+        service: "smtp.hostinger.com",
         auth: {
             user: process.env.GMAIL,
             pass: process.env.GOOGLE_APP_PASSWORD,
         },
-        port: 465
+        port: 465,
+        secure: true
     }
 )
 
@@ -16,8 +17,8 @@ export const sendAppointmentEmail = async (patient_name: string, insurance_name:
         const result = await transporter.sendMail(
             {
                 from: process.env.GMAIL,
-                to: 'info@ahmedmedicalpsychiatriccare.com',
-                subject: 'New Appointment - Ahmed Medical Psychiatric Care',
+                to: 'info@lyarimp.com',
+                subject: 'New Appointment - Lyari Medical Psychiatric Care',
                 html: `
                     <!DOCTYPE html>
                     <html>

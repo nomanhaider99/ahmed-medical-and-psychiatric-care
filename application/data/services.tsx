@@ -65,7 +65,7 @@ export const detailedServicesData: ServiceDetail[] = [
         whatIs: {
             heading: "What is Medication Management?",
             description:
-                "Medication management is a crucial component of mental health care, designed to optimize the use of prescribed medications for mental health conditions. At Ahmed Medical & Psychiatric Care, we provide comprehensive online medication management that ensures medications are effective, safe, and tailored to your individual needs. Proper medication management involves selecting the right medications, monitoring for side effects, adjusting dosages as needed, and combining pharmacological treatment with therapy for the best outcomes.",
+                "Medication management is a crucial component of mental health care, designed to optimize the use of prescribed medications for mental health conditions. At Lyari Medical & Psychiatric Care, we provide comprehensive online medication management that ensures medications are effective, safe, and tailored to your individual needs. Proper medication management involves selecting the right medications, monitoring for side effects, adjusting dosages as needed, and combining pharmacological treatment with therapy for the best outcomes.",
         },
 
         symptoms: {
@@ -150,7 +150,7 @@ export const detailedServicesData: ServiceDetail[] = [
 
         whyChoose: {
             heading:
-                "Why Choose Ahmed Medical & Psychiatric Care for Online Medication Management?",
+                "Why Choose Lyari Medical & Psychiatric Care for Online Medication Management?",
             points: [
                 "Expert Psychiatrists: Licensed professionals with extensive experience in mental health pharmacology.",
                 "Personalized Treatment: Each medication plan is tailored to your specific condition, history, and lifestyle.",
@@ -167,7 +167,7 @@ export const detailedServicesData: ServiceDetail[] = [
         title: "Online Mental Health Consultation",
         subtitle: "Professional Mental Health Support Anytime, Anywhere",
         desc:
-            "Mental health challenges shouldn’t have to wait. At Ahmed Medical & Psychiatric Care, we provide online mental health counseling that delivers timely, high-quality care from the comfort of your home. Whether you’re experiencing stress, anxiety, depression, or other mental health concerns, our virtual consultations ensure you receive the support you need, exactly when you need it. Our online counseling services offer flexibility and convenience, with therapists available for same-day appointments to help you begin your journey toward healing without delay.",
+            "Mental health challenges shouldn’t have to wait. At Lyari Medical & Psychiatric Care, we provide online mental health counseling that delivers timely, high-quality care from the comfort of your home. Whether you’re experiencing stress, anxiety, depression, or other mental health concerns, our virtual consultations ensure you receive the support you need, exactly when you need it. Our online counseling services offer flexibility and convenience, with therapists available for same-day appointments to help you begin your journey toward healing without delay.",
 
         whatIs: {
             heading: "What is Online Mental Health Consultation?",
@@ -272,7 +272,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Online Mental Health Consultation?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Online Mental Health Consultation?",
             points: [
                 "Expert Mental Health Professionals: Licensed therapists and psychiatrists with extensive experience in geriatric mental health.",
                 "Personalized Care: Each treatment plan is tailored to the senior’s specific needs, history, and lifestyle.",
@@ -289,7 +289,7 @@ export const detailedServicesData: ServiceDetail[] = [
         title: "Online Stress Management Therapy",
         subtitle: "Online Stress Management Therapy",
         desc:
-            "Stress affects nearly every aspect of life—from work performance and relationships to physical and emotional health. Effective stress management is more than just learning how to relax; it’s about developing practical tools and long-term strategies to handle challenges in a healthy, balanced way. It involves identifying your stress triggers, recognizing early warning signs, and applying evidence-based coping methods before things become overwhelming. At Ahmed Medical & Psychiatric Care, we understand how deeply chronic stress can impact your life. Our online stress management therapy is designed to help you build resilience, strengthen coping mechanisms, and restore balance to your daily routine.",
+            "Stress affects nearly every aspect of life—from work performance and relationships to physical and emotional health. Effective stress management is more than just learning how to relax; it’s about developing practical tools and long-term strategies to handle challenges in a healthy, balanced way. It involves identifying your stress triggers, recognizing early warning signs, and applying evidence-based coping methods before things become overwhelming. At Lyari Medical & Psychiatric Care, we understand how deeply chronic stress can impact your life. Our online stress management therapy is designed to help you build resilience, strengthen coping mechanisms, and restore balance to your daily routine.",
 
         whatIs: {
             heading: "What is Online Stress Management Therapy?",
@@ -394,12 +394,12 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Stress Management Therapy",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Stress Management Therapy",
             points: [
                 "Experienced, Licensed Therapists: Professionals specialize in stress management and use evidence-based therapeutic approaches.",
                 "Confidential and Secure Sessions: We uphold the highest standards of privacy and security in all online interactions.",
                 "Personalized Treatment Plans: Every therapy plan is uniquely designed to match your specific lifestyle, challenges, and goals.",
-                "Comprehensive Mental Health Support: Ahmed Medical & Psychiatric Care offers a full range of mental health services, ensuring holistic care for stress, anxiety, depression, and emotional well-being.",
+                "Comprehensive Mental Health Support: Lyari Medical & Psychiatric Care offers a full range of mental health services, ensuring holistic care for stress, anxiety, depression, and emotional well-being.",
             ],
         },
     },
@@ -415,7 +415,7 @@ export const detailedServicesData: ServiceDetail[] = [
         whatIs: {
             heading: "What is Seasonal Affective Disorder?",
             description:
-                "Seasonal Affective Disorder (SAD) is a type of depression that occurs during certain seasons, usually fall and winter. It is linked to reduced sunlight exposure and can affect mood, energy, and overall well-being. Online therapy from Ahmed Medical & Psychiatric Care provides effective support for managing these seasonal changes.",
+                "Seasonal Affective Disorder (SAD) is a type of depression that occurs during certain seasons, usually fall and winter. It is linked to reduced sunlight exposure and can affect mood, energy, and overall well-being. Online therapy from Lyari Medical & Psychiatric Care provides effective support for managing these seasonal changes.",
         },
 
         symptoms: {
@@ -516,7 +516,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Virtual SAD Treatment?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Virtual SAD Treatment?",
             points: [
                 "Same-Day Appointments: Get the help you need without delay, connecting with a licensed provider within hours.",
                 "Choice of Provider: Select a therapist or psychiatrist who best fits your needs and preferences.",
@@ -537,7 +537,7 @@ export const detailedServicesData: ServiceDetail[] = [
         whatIs: {
             heading: "What Is Depression?",
             description:
-                "Depression is a mental health condition that impacts mood, cognition, and daily functioning. Ahmed Medical & Psychiatric Care provides online therapy and psychiatric support to help individuals manage symptoms and improve overall well-being.",
+                "Depression is a mental health condition that impacts mood, cognition, and daily functioning. Lyari Medical & Psychiatric Care provides online therapy and psychiatric support to help individuals manage symptoms and improve overall well-being.",
         },
 
         symptoms: {
@@ -617,7 +617,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Depression Treatment?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Depression Treatment?",
             points: [
                 "Same-Day Access: Quick appointments to start treatment without long waits.",
                 "Clinician-Owned Values: All decisions are made with compassion by clinicians, keeping patient well-being the priority.",
@@ -633,12 +633,12 @@ export const detailedServicesData: ServiceDetail[] = [
         title: "Online Anxiety Management Therapy",
         subtitle: "Online Anxiety Management Therapy",
         desc:
-            "Anxiety is more than just feeling nervous; it's a persistent, often overwhelming feeling of worry or fear that can significantly impact daily functioning, relationships, and health. Anxiety management involves developing a deep understanding of your anxiety triggers, learning to challenge negative thought patterns, and acquiring effective, science-backed strategies to reduce and cope with anxious feelings. It is about reclaiming control and finding peace in your day-to-day life. At Ahmed Medical & Psychiatric Care, our online anxiety management therapy is specifically designed to provide you with the tools to reduce your symptoms, challenge fearful thoughts, and build lasting emotional resilience.",
+            "Anxiety is more than just feeling nervous; it's a persistent, often overwhelming feeling of worry or fear that can significantly impact daily functioning, relationships, and health. Anxiety management involves developing a deep understanding of your anxiety triggers, learning to challenge negative thought patterns, and acquiring effective, science-backed strategies to reduce and cope with anxious feelings. It is about reclaiming control and finding peace in your day-to-day life. At Lyari Medical & Psychiatric Care, our online anxiety management therapy is specifically designed to provide you with the tools to reduce your symptoms, challenge fearful thoughts, and build lasting emotional resilience.",
 
         whatIs: {
             heading: "What is Online Anxiety Management Therapy?",
             description:
-                "Online anxiety management therapy helps individuals identify triggers, challenge anxious thoughts, and develop effective coping strategies. Ahmed Medical & Psychiatric Care provides accessible, professional support for managing anxiety and improving emotional resilience.",
+                "Online anxiety management therapy helps individuals identify triggers, challenge anxious thoughts, and develop effective coping strategies. Lyari Medical & Psychiatric Care provides accessible, professional support for managing anxiety and improving emotional resilience.",
         },
 
         symptoms: {
@@ -739,7 +739,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Virtual Anxiety Management Therapy?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Virtual Anxiety Management Therapy?",
             points: [
                 "Specialized, Licensed Therapists: Experts using research-backed modalities like CBT and ACT.",
                 "Unwavering Confidentiality and Security: Strict adherence to privacy regulations for secure sessions.",
@@ -755,12 +755,12 @@ export const detailedServicesData: ServiceDetail[] = [
         title: "Online Insomnia/Sleeping Difficulty Treatment",
         subtitle: "Online Insomnia/Sleeping Difficulty Treatment",
         desc:
-            "Insomnia / Sleeping Difficulty is a chronic sleep disorder that makes it difficult to fall asleep, stay asleep, or feel refreshed upon waking. Persistent insomnia can cause daytime fatigue, irritability, and difficulty concentrating, significantly affecting your daily life. Chronic insomnia can contribute to serious physical and emotional health issues if left untreated. Ahmed Medical & Psychiatric Care provides online treatment to help restore restorative sleep.",
+            "Insomnia / Sleeping Difficulty is a chronic sleep disorder that makes it difficult to fall asleep, stay asleep, or feel refreshed upon waking. Persistent insomnia can cause daytime fatigue, irritability, and difficulty concentrating, significantly affecting your daily life. Chronic insomnia can contribute to serious physical and emotional health issues if left untreated. Lyari Medical & Psychiatric Care provides online treatment to help restore restorative sleep.",
 
         whatIs: {
             heading: "What is Insomnia?",
             description:
-                "Insomnia / Sleeping Difficulty is more than an occasional restless night. It is a chronic sleep disorder that disrupts sleep patterns and affects overall health and daily functioning. Online treatment from Ahmed Medical & Psychiatric Care addresses the underlying causes and promotes better sleep.",
+                "Insomnia / Sleeping Difficulty is more than an occasional restless night. It is a chronic sleep disorder that disrupts sleep patterns and affects overall health and daily functioning. Online treatment from Lyari Medical & Psychiatric Care addresses the underlying causes and promotes better sleep.",
         },
 
         symptoms: {
@@ -785,7 +785,7 @@ export const detailedServicesData: ServiceDetail[] = [
         causes: {
             heading: "Benefits of Online Insomnia / Sleeping Difficulty Treatment",
             description:
-                "Ahmed Medical & Psychiatric Care’s online insomnia treatment provides accessible, personalized, and convenient care.",
+                "Lyari Medical & Psychiatric Care’s online insomnia treatment provides accessible, personalized, and convenient care.",
             list: [
                 { title: "Convenience", desc: "Virtual appointments fit seamlessly into your schedule, eliminating travel." },
                 { title: "Personalization", desc: "Specialists create individualized treatment plans for your specific sleep challenges." },
@@ -845,7 +845,7 @@ export const detailedServicesData: ServiceDetail[] = [
         whatIs: {
             heading: "What is PTSD?",
             description:
-                "Post-Traumatic Stress Disorder (PTSD) is a complex mental health condition that can develop after experiencing or witnessing a traumatic event. It can affect individuals who have encountered situations such as combat, natural disasters, accidents, or personal assaults. While commonly associated with veterans, PTSD can impact people of all backgrounds and ages. The symptoms of PTSD can be debilitating and may include persistent fear, intrusive memories or flashbacks, avoidance of triggers, negative mood changes, and heightened anxiety. At Ahmed Medical & Psychiatric Care, we understand the complexity of PTSD. Our clinician-led team is dedicated to providing evidence-based, compassionate care through our online services, making it easier than ever to access help.",
+                "Post-Traumatic Stress Disorder (PTSD) is a complex mental health condition that can develop after experiencing or witnessing a traumatic event. It can affect individuals who have encountered situations such as combat, natural disasters, accidents, or personal assaults. While commonly associated with veterans, PTSD can impact people of all backgrounds and ages. The symptoms of PTSD can be debilitating and may include persistent fear, intrusive memories or flashbacks, avoidance of triggers, negative mood changes, and heightened anxiety. At Lyari Medical & Psychiatric Care, we understand the complexity of PTSD. Our clinician-led team is dedicated to providing evidence-based, compassionate care through our online services, making it easier than ever to access help.",
         },
 
         symptoms: {
@@ -928,7 +928,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Your PTSD Treatment?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Your PTSD Treatment?",
             points: [
                 "Timely Access to Care: Same-day appointments for those needing immediate support.",
                 "Evidence-Based Treatment Approaches: Clinically proven methods for accurate and effective care.",
@@ -945,7 +945,7 @@ export const detailedServicesData: ServiceDetail[] = [
         title: "Self-harm Treatment",
         subtitle: "Self-harm Treatment",
         desc:
-            "Self-harm involves intentionally causing physical injury to oneself as a way to cope with emotional distress, stress, or psychological pain. While it may offer temporary relief, it often masks deeper issues such as anxiety, depression, or unresolved trauma. At Ahmed Medical & Psychiatric Care, our online therapy provides compassionate, structured, and effective support to help individuals overcome Self-harming behaviors.",
+            "Self-harm involves intentionally causing physical injury to oneself as a way to cope with emotional distress, stress, or psychological pain. While it may offer temporary relief, it often masks deeper issues such as anxiety, depression, or unresolved trauma. At Lyari Medical & Psychiatric Care, our online therapy provides compassionate, structured, and effective support to help individuals overcome Self-harming behaviors.",
 
         whatIs: {
             heading: "What is Self-harm?",
@@ -1038,7 +1038,7 @@ export const detailedServicesData: ServiceDetail[] = [
         title: "Online Therapy for Low self-esteem",
         subtitle: "Online Therapy for Low self-esteem",
         desc:
-            "Low self-esteem is a pervasive lack of confidence and self-worth, affecting how you view your abilities, relationships, and potential for happiness. Ahmed Medical & Psychiatric Care offers online therapy to help dismantle self-doubt, cultivate self-compassion, and build a resilient, authentic sense of self-worth.",
+            "Low self-esteem is a pervasive lack of confidence and self-worth, affecting how you view your abilities, relationships, and potential for happiness. Lyari Medical & Psychiatric Care offers online therapy to help dismantle self-doubt, cultivate self-compassion, and build a resilient, authentic sense of self-worth.",
 
         whatIs: {
             heading: "What is Low Self-esteem?",
@@ -1135,7 +1135,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Virtual Low Self-Esteem Therapy?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Virtual Low Self-Esteem Therapy?",
             points: [
                 "Specialists in Self-Worth — Licensed therapists skilled in CBT and DBT to enhance self-esteem.",
                 "Discretion and Data Security — Confidential sessions with strict privacy protocols.",
@@ -1149,9 +1149,9 @@ export const detailedServicesData: ServiceDetail[] = [
         route: "/services/suicidal-thoughts",
         image: '/assets/images/services/suicidal-thoughts.jpeg',
         title: "Online Support for Managing Suicidal Thoughts",
-        subtitle: "Compassionate Support and Therapy with Ahmed Medical & Psychiatric Care",
+        subtitle: "Compassionate Support and Therapy with Lyari Medical & Psychiatric Care",
         desc:
-            "Experiencing suicidal thoughts is a sign of extreme emotional distress and requires professional care. At Ahmed Medical & Psychiatric Care, we provide safe, compassionate online therapy focused on stabilization, safety planning, emotional regulation, and long-term recovery.",
+            "Experiencing suicidal thoughts is a sign of extreme emotional distress and requires professional care. At Lyari Medical & Psychiatric Care, we provide safe, compassionate online therapy focused on stabilization, safety planning, emotional regulation, and long-term recovery.",
 
         whatIs: {
             heading: "What Are Suicidal Thoughts?",
@@ -1248,7 +1248,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Virtual Crisis Management?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Virtual Crisis Management?",
             points: [
                 "Specialists in High-Risk Care — Our therapists are trained in structured, evidence-based DBT and crisis stabilization protocols.",
                 "Integrated Medical and Psychiatric Oversight — We coordinate therapy and medication management for comprehensive recovery.",
@@ -1267,7 +1267,7 @@ export const detailedServicesData: ServiceDetail[] = [
         whatIs: {
             heading: "What Is Obsessive-Compulsive Disorder (OCD)?",
             description:
-                "Obsessive-Compulsive Disorder (OCD) is a mental health condition characterized by persistent, unwanted thoughts (obsessions) and repetitive behaviors (compulsions). These compulsions are performed to reduce the anxiety caused by obsessions. Without treatment, OCD can interfere with daily life, relationships, and overall well-being. At Ahmed Medical & Psychiatric Care, we specialize in online OCD therapy, offering professional support through secure, virtual sessions that fit seamlessly into your schedule. Our OCD psychiatrists provide personalized treatment tailored to each individual.",
+                "Obsessive-Compulsive Disorder (OCD) is a mental health condition characterized by persistent, unwanted thoughts (obsessions) and repetitive behaviors (compulsions). These compulsions are performed to reduce the anxiety caused by obsessions. Without treatment, OCD can interfere with daily life, relationships, and overall well-being. At Lyari Medical & Psychiatric Care, we specialize in online OCD therapy, offering professional support through secure, virtual sessions that fit seamlessly into your schedule. Our OCD psychiatrists provide personalized treatment tailored to each individual.",
         },
 
         symptoms: {
@@ -1366,7 +1366,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Online OCD Treatment?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Online OCD Treatment?",
             points: [
                 "Specialized OCD Therapists: Experienced psychiatrists using evidence-based treatments.",
                 "Customized Therapy Plans: Personalized to your unique needs and challenges.",
@@ -1382,7 +1382,7 @@ export const detailedServicesData: ServiceDetail[] = [
         title: "Effective Online ADHD Treatment",
         subtitle: "Personalized Virtual Care for Children, Teens, and Adults",
         desc:
-            "Ahmed Medical & Psychiatric Care offers comprehensive online ADHD treatment designed to help individuals manage symptoms of inattention, impulsivity, and hyperactivity with consistent, expert support. Through secure virtual sessions, our specialist psychiatrist provides personalized strategies, evidence-based interventions, and continuous monitoring—making ADHD care more accessible, flexible, and effective for patients of all ages.",
+            "Lyari Medical & Psychiatric Care offers comprehensive online ADHD treatment designed to help individuals manage symptoms of inattention, impulsivity, and hyperactivity with consistent, expert support. Through secure virtual sessions, our specialist psychiatrist provides personalized strategies, evidence-based interventions, and continuous monitoring—making ADHD care more accessible, flexible, and effective for patients of all ages.",
 
         whatIs: {
             heading: "What is Online ADHD Treatment?",
@@ -1484,7 +1484,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for ADHD Treatment?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for ADHD Treatment?",
             points: [
                 "Experienced ADHD Specialists: Licensed professionals with expertise in diagnosing and treating ADHD across all ages.",
                 "Personalized Treatment Plans: Every plan is uniquely customized to the individual's challenges and goals.",
@@ -1501,7 +1501,7 @@ export const detailedServicesData: ServiceDetail[] = [
         title: "Online Anger Management Therapy",
         subtitle: "Regain Control, Strengthen Relationships, and Improve Emotional Balance",
         desc:
-            "Ahmed Medical & Psychiatric Care provides online anger management therapy designed to help individuals understand emotional triggers, regulate intense reactions, and develop healthier communication habits. Through structured virtual sessions with licensed therapists, you’ll learn evidence-based techniques that enhance emotional control, improve relationships, and promote long-term emotional well-being.",
+            "Lyari Medical & Psychiatric Care provides online anger management therapy designed to help individuals understand emotional triggers, regulate intense reactions, and develop healthier communication habits. Through structured virtual sessions with licensed therapists, you’ll learn evidence-based techniques that enhance emotional control, improve relationships, and promote long-term emotional well-being.",
 
         whatIs: {
             heading: "What is Anger Management?",
@@ -1603,7 +1603,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Anger Management?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Anger Management?",
             points: [
                 "Specialized Therapists: Licensed clinicians experienced in anger management and emotional regulation.",
                 "Comprehensive Mental Health Support: Integrated care for related issues like anxiety or depression.",
@@ -1620,7 +1620,7 @@ export const detailedServicesData: ServiceDetail[] = [
         title: "Online Alcohol/Drug Use Treatment",
         subtitle: "Compassionate, Confidential, and Effective Support Through Telehealth",
         desc:
-            "Ahmed Medical & Psychiatric Care provides comprehensive, evidence-based virtual treatment for alcohol abuse. Through our secure telehealth platform, patients receive personalized care, including therapy, medical support, and long-term recovery planning. Our online approach ensures convenience, privacy, and continuous professional support throughout your journey toward sobriety.",
+            "Lyari Medical & Psychiatric Care provides comprehensive, evidence-based virtual treatment for alcohol abuse. Through our secure telehealth platform, patients receive personalized care, including therapy, medical support, and long-term recovery planning. Our online approach ensures convenience, privacy, and continuous professional support throughout your journey toward sobriety.",
 
         whatIs: {
             heading: "What is Alcohol Abuse?",
@@ -1723,7 +1723,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Alcohol Abuse Treatment?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Alcohol Abuse Treatment?",
             points: [
                 "Experienced Addiction Specialists: Our licensed psychiatrists and therapists have extensive experience treating Substance Use Disorders.",
                 "Integrated Mental Health Care: We treat both alcohol misuse and co-occurring conditions for comprehensive support.",
@@ -1740,7 +1740,7 @@ export const detailedServicesData: ServiceDetail[] = [
         title: "Online Smoking Cessation Treatment",
         subtitle: "Integrated Psychiatric Care to Help You Quit Smoking Through Telehealth",
         desc:
-            "Ahmed Medical & Psychiatric Care offers a comprehensive telehealth program designed to help patients quit smoking by addressing nicotine dependence and the mental health factors driving it. Through expert psychiatric care, therapy, and medication-assisted treatment, we provide effective, private, and convenient support for long-term smoking cessation.",
+            "Lyari Medical & Psychiatric Care offers a comprehensive telehealth program designed to help patients quit smoking by addressing nicotine dependence and the mental health factors driving it. Through expert psychiatric care, therapy, and medication-assisted treatment, we provide effective, private, and convenient support for long-term smoking cessation.",
 
         whatIs: {
             heading: "How We Help With Smoking Prevention",
@@ -1842,7 +1842,7 @@ export const detailedServicesData: ServiceDetail[] = [
         },
 
         whyChoose: {
-            heading: "Why Choose Ahmed Medical & Psychiatric Care for Smoking Prevention?",
+            heading: "Why Choose Lyari Medical & Psychiatric Care for Smoking Prevention?",
             points: [
                 "Integrated psychiatric and therapeutic support for nicotine dependence.",
                 "Expert remote management of MAT medications such as Chantix, Zyban, and NRT.",
