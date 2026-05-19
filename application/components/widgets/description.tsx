@@ -22,10 +22,10 @@ const Description = () => {
             At <b><u>Lyari Medical & Psychiatric Care</u></b>, we provide professional, evidence-based mental health treatment in the comfort of your own home. Our team of licensed mental health professionals is dedicated to delivering patient-centered care, guided by proven, research-backed approaches to support meaningful and lasting outcomes. Every patient is treated as an individual, with empathy, understanding, and respect..
           </p>
 
-          <p className="flex items-center gap-3 font-extrabold text-lg">
+          <Link href={'tel:+18476165562'} className="flex items-center gap-3 font-extrabold text-lg">
             <FaPhoneAlt size={16} />
-            (442) 777-0876
-          </p>
+            <span> (847) 616-5562</span>
+          </Link>
 
           <div className="w-full sm:w-1/2 md:w-2/3 lg:w-2/5">
             <Link href="/appointment">
