@@ -12,19 +12,19 @@ const Footer = () => {
         <h2 className="text-[3rem] tracking-tight font-extrabold text-dark-gray leading-none">Request More Information</h2>
         <p className="md:text-center text-left text-zinc-200 w-full md:w-3/4">Lyari Medical & Psychiatric Care is a hospital staffed by experienced psychiatrists and therapists dedicated to providing compassionate, evidence-based treatment for anxiety, depression, and other mental health conditions.</p>
         <div className="flex lg:flex-row flex-col items-start lg:items-center lg:gap-5 md:gap-3 gap-2">
-            <div className="flex items-center gap-2">
-              <FaPhoneAlt size={14} />
-              <span className="font-medium"> (442) 777-0876</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <MdEmail size={14} />
-              <span className="font-medium">info@lyarimp.com</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <MdFax />
-              <span>(224) 252-3667</span>
-            </div>
-          </div>
+          <Link href={'tel:+18476165562'} className="flex items-center gap-2">
+            <FaPhoneAlt size={14} />
+            <span className="font-medium"> (847) 616-5562</span>
+          </Link>
+          <Link href={"mailto:info@lyarimp.com"} className="flex items-center gap-2">
+            <MdEmail size={14} />
+            <span className="font-medium">info@lyarimp.com</span>
+          </Link>
+          <Link href={'tel:+18476165563'} className="lg:flex hidden items-center gap-2">
+            <MdFax size={22} />
+            <span>(847) 616-5563</span>
+          </Link>
+        </div>
       </div>
       <div className="w-3/4 bg-zinc-300/55 h-[1px]"></div>
       <div className="md:w-3/4 w-full flex md:flex-row flex-col justify-between md:items-center items-start md:gap-0 gap-5">
